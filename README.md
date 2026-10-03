@@ -11,7 +11,7 @@ July 2025 to August 2026.
 > "With certainty, if you're good at your job, you can make an app grow and go viral."
 > Nikita Bier, Lenny's Podcast, 2024
 
-> This repo is not written, reviewed or endorsed by Nikita Bier, Lenny's Podcast,
+> ⚠️ **Unofficial.** This repo is not written, reviewed or endorsed by Nikita Bier, Lenny's Podcast,
 > Lightspeed, TechCrunch or X. It is a summary in our own words with short, credited quotes. Every
 > claim links to its source so you can check it.
 
@@ -61,21 +61,97 @@ invented numbers, run through the whole method so you can see what the output lo
 `SKILL.md` turns the playbook into a growth audit. Give your agent your app, your numbers and your
 first 60 seconds of onboarding. It checks your instrumentation, finds the first unproven rung of the
 validation ladder, runs the checks for that rung, and returns table stakes, 2 to 3 step-function
-changes and one clean test, each tied to a principle and a source. See the worked example above.
+changes and one clean test, each tied to a principle and a source. See "How to use this" below.
 
-## Install
+## How to use this
 
-Clone into your agent's skills folder. For Claude Code:
+There are three ways in. Pick the one that fits how much time you have.
+
+### 1. Run it as an AI skill (10 minutes, the full audit)
+
+**Step 1: install.** Clone it into your agent's skills folder. For Claude Code:
 
 ```bash
 git clone https://github.com/01ayushgarg/nikita-bier-consumer-app-virality-playbook \
   ~/.claude/skills/nikita-bier-consumer-app-virality-playbook
 ```
 
-Then ask: *"Run a growth audit on my app"*, *"why aren't my users inviting friends?"*, *"how should I
-test this app idea?"*, or *"there's a rumour spreading about our app, what do we do?"*
+Any agent that reads skill folders (a folder with a `SKILL.md`) works the same way. If yours doesn't,
+paste `SKILL.md` into the chat and attach the `references/` files it asks for.
 
-Or just read the chapters above.
+**Step 2: give it your app.** The more you give, the sharper the audit. Copy this and fill it in:
+
+```text
+Run the Nikita Bier playbook audit on my app.
+
+App: [name + link]
+What it does: [one sentence, and the action users repeat]
+Who it's for: [who, and their age]
+Stage: [idea / prototype / launched / growing]
+Numbers (whatever you have):
+- installs or sign-ups per day, and where they come from
+- sign-up completion %
+- % of new users who invite or share, and how many each
+- % of invites or shares that turn into a new user
+- day-1 and day-7 retention
+First 60 seconds: [every screen a new user sees, in order]
+```
+
+No numbers yet? Say so. The skill will audit what it can see, mark what it couldn't measure, and tell
+you exactly what to track first.
+
+**Step 3: read the audit.** You get back:
+
+1. **Where you're stuck:** the first unproven step of the ladder (core flow → spreads in a group →
+   hops between groups → people pay)
+2. **Tracking gaps** to fix before trusting your numbers
+3. **Table stakes:** the basic fixes first
+4. **2 to 3 step-function changes:** the bigger bets
+5. **One clean test** with a yes/no threshold agreed before you run it
+6. **What it couldn't assess**, and what to send next
+
+Every recommendation cites the chapter and the source it comes from. See the
+[worked example](examples/01-worked-example-growth-audit.md) for a full output.
+
+**Other things you can ask it:**
+
+- *"Why aren't my users inviting friends?"*
+- *"How should I test this app idea in 48 hours?"*
+- *"Score my invite flow."*
+- *"Calculate my K-factor from these numbers."*
+- *"Should I rename my app?"*
+- *"There's a rumour spreading about our app. What do we do?"*
+- *"My app isn't social. What still applies?"*
+
+### 2. Use the templates (30 minutes, no AI needed)
+
+Work through them in order, on your own or with your team:
+
+1. [Instrumentation checklist](templates/01-instrumentation-checklist.md): make sure your numbers are real
+2. [Invite flow teardown](templates/04-invite-flow-teardown.md): score your flow out of 24
+3. [K-factor worksheet](templates/03-k-factor-worksheet.md): measure how much your users bring in others
+4. [48-hour test plan](templates/02-48-hour-test-plan.md): design one test for your biggest gap
+
+### 3. Read it (an hour)
+
+Start with [00 Who Nikita Bier is](references/00-who-is-nikita-bier.md), then read the chapter for
+your problem:
+
+| If your problem is... | Read |
+|---|---|
+| "I don't know what to build" | 01, 02 |
+| "People sign up but don't stick" | 05, 04 |
+| "Nobody invites anyone" | 06, 07 |
+| "I don't know if it's working" | 08, 03 |
+| "It's working and everything is breaking" | 09 |
+| "There's a hoax about us" | 10 |
+| "How do I make money from it?" | 11 |
+| "My app isn't social" | 16 |
+| "How did he grow X?" | 17 |
+
+**A word of caution from the man himself:** about half the startups he advises hit big success and
+half fail outright, "because consumer is so random." Use this to raise your odds, not to promise an
+outcome.
 
 ## How it stays honest
 
