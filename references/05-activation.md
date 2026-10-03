@@ -37,6 +37,13 @@ many friends they have on it, exposing a lot of value in one tap [LP 1:30:59].
 
 Typing usernames 50 times for a 50-person friend list: "we're looking at 10,000 taps versus one." [LP 1:31:35]
 
+## Design is the highest-ROI work
+
+> "Consumer products live and die in the pixels. And the highest ROI you could ever have is being able to
+> map out all the directions you could take this product and seeing what it would look like and picking
+> the best path forward versus just kicking off engineering and adding some shiny aesthetic layer on it."
+> [SOL 3:01] "Investing day one in design is something a lot of founders neglect." [SOL 3:21]
+
 ## Where installs actually happen
 
 [X 2025-05-21](https://x.com/nikitabier/status/1925179335180197902):

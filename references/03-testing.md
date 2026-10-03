@@ -44,6 +44,15 @@ they actually derive value from this app?" [LP 32:34]
 > organically... usually within 48 hours we'd know if it if it was working. Uh and with with TBH uh we
 > knew that night." [OOO 56:29]
 
+## Test for conviction, in stealth
+
+> "The aim of doing a consumer product experiment is to get signal... develop a process where you can walk
+> away from a launch, an experiment, and have conviction whether it's working or not." [SOL 2:06 to 2:25]
+
+> "I've worked in a small silo in a stealth way until I had resonance with a particular audience and I had
+> conviction... and then I would market on a global stage... so you have the freedom to make vast changes
+> to your product." [SOL 2:38]
+
 ## Assume you're wrong, and build reusable parts
 
 [X 2021-07-09](https://x.com/nikitabier/status/1413392823630680071):
@@ -79,6 +88,51 @@ they actually derive value from this app?" [LP 32:34]
 > will work for 10 hours a day for 7 days a week and put all other life plans on hold for 4 months. In
 > exchange, you will own double digit equity, draw no salary, but 3 meals a day will be provided. If it
 > doesn't start working by the end of 4 months, we disband."
+
+## Simulate the full product before you build it
+
+[X 2024-06-21](https://x.com/nikitabier/status/1804214914472644975):
+
+> "The best way to validate a product without launching it is to try and simulate what the experience
+> would be like when it's fully populated with content and users... I was building a map-based app
+> called Ants [...] After building it, I realized that people clustered in the same places almost
+> every day and it didn't provide any new information on the 2nd session. All along I didn't need to
+> build the app to get this insight. I could've populated a map with the data right onto a Figma file
+> and anticipated this outcome much sooner."
+
+## Pay for the unscalable test that answers the big unknowns
+
+[X 2024-02-06](https://x.com/nikitabier/status/1754896706880127185):
+
+> "When I tested the first prototype of the Gas app at a single school, it cost $600 in server costs
+> per day—with a userbase of only 800 people... For us, the bigger unknowns were (a) if an anonymous
+> polling app would resonate 5 years later, (b) if people would pay for it, and (c) if it would
+> grow—so we paid the upfront cost to answer these questions quickly before summer started."
+
+And a whole-country test, cheaply, [X 2024-01-15](https://x.com/nikitabier/status/1746756081194619066):
+
+> "In 2014, I wanted to test out an app concept and validate if it would work if a whole country was
+> using it. So I launched it to the smallest App Store in the world: Malta. I called it "Maltalk" and
+> it reached the number one spot in 48 hours with $500 of ads."
+
+## Know when to stop
+
+[X 2023-02-01](https://x.com/nikitabier/status/1620821649888264195):
+
+> "About 95% of founders that come to me for help show me absolutely devastating metrics. Low
+> engagement, no retention, a K-factor close to zero. There is nothing you can do. Change the idea."
+
+Don't trust a beta: [X 2024-11-15](https://x.com/nikitabier/status/1857293213624582551) (sarcasm)
+mocks founders citing "retention... higher than Facebook in our TestFlight beta", because
+"self-selected people who jumped through hoops" always stick around.
+
+## Who to have on the team
+
+[X 2023-07-15](https://x.com/nikitabier/status/1680336066325393408):
+
+> "Everyone talks about 10x engineers but the real risk for most companies is not whether you can
+> build it, it's if you're building the right thing. A designer that can distill why a user is
+> adopting and then prototype the most clear version of that insight will save you millions."
 
 ## Live chat support as user research
 
