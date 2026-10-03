@@ -1,30 +1,60 @@
 # Sources
 
-## Primary source
+Every claim in this repo cites one of the sources below by its ID. Quotes are copied from the
+source. Where a source is auto-captioned, obvious caption errors are corrected and marked `[sic]`
+or noted. All sources were accessed on **3 October 2026**.
 
-**"How to consistently go viral: Nikita Bier's playbook for winning at consumer apps"**
-Lenny's Podcast, published 25 August 2024.
-https://www.youtube.com/watch?v=bhnfZhJWCWY
+## Primary sources: Nikita Bier in his own words
 
-Timestamps in this skill are `mm:ss` or `h:mm:ss` into that video. To jump to one, add
-`&t=` with the time in seconds, e.g. `1:12:48` → `&t=4368`.
+| ID | Source | Date | Notes |
+|---|---|---|---|
+| **LP** | Lenny's Podcast, ["How to consistently go viral: Nikita Bier's playbook for winning at consumer apps"](https://www.youtube.com/watch?v=bhnfZhJWCWY), host Lenny Rachitsky | 2024-08-25 | Full transcript read. Cited as `[LP mm:ss]`. |
+| **OOO** | Out of Office (Lightspeed), ["Nikita Bier Is Out Of Office"](https://www.youtube.com/watch?v=tF4j4LB-2rk), host Michael Mignano | 2026-02-10 | Full transcript read (auto-captions). Cited as `[OOO h:mm:ss]`. |
+| **X** | Nikita's posts on X, [@nikitabier](https://x.com/nikitabier) | 2018 to 2026 | About 40 posts, each linked where cited. Cited as `[X yyyy-mm-dd]`. Text is verbatim. |
+| **INTRO** | [intro.co/NikitaBier](https://intro.co/NikitaBier), his paid advisory listing | accessed 2026-10-03 | Listing text and price as shown on that date. |
+
+## Reporting and reference
+
+| ID | Source | Date | Used for |
+|---|---|---|---|
+| **TC1** | TechCrunch, Josh Constine, ["How tbh hit #1 by turning anonymity positive"](https://techcrunch.com/2017/09/22/tbh-app/) | 2017-09-22 | tbh design, team quotes, rollout |
+| **TC2** | TechCrunch, Josh Constine, ["Facebook acquires anonymous teen compliment app tbh, will let it run"](https://techcrunch.com/2017/10/16/facebook-acquires-anonymous-teen-compliment-app-tbh-will-let-it-run/) | 2017-10-16 | tbh numbers, acquisition, quotes credited to Bier |
+| **TC3** | TechCrunch, Amanda Silberling, ["Discord acquires Gas, a compliments-based social media app for teens"](https://techcrunch.com/2023/01/17/discord-acquires-gas-a-compliments-based-social-media-app-for-teens/) | 2023-01-17 | Gas numbers (Sensor Tower), God Mode, hoax |
+| **TC4** | TechCrunch, Ivan Mehta, ["Creator of Gas and tbh makes an app for disappearing photos via iMessage"](https://techcrunch.com/2025/01/15/creator-of-gas-and-tbh-makes-an-app-for-disappearing-photos-via-imessage/) | 2025-01-15 | Explode, Snap platform risk |
+| **TC5** | TechCrunch, Amanda Silberling, ["Nikita Bier joins X as head of product"](https://techcrunch.com/2025/07/01/nikita-bier-joins-x-as-head-of-product-ive-officially-posted-my-way-to-the-top/) | 2025-07-01 | X role, Lightspeed and Solana roles |
+| **SRC** | Sources (Alex Heath), ["X wants its haters back"](https://sources.news/p/x-wants-its-haters-back) | 2025-12-11 | Link viewer context. Paywalled: only the free intro was read. |
+| **MP** | MediaPost, Colin Kirkland, ["X Head Of Product Steps Down, Becomes Advisor"](https://www.mediapost.com/publications/article/417079/x-head-of-product-steps-down-becomes-advisor.html) | 2026-08-06 | Departure from the X role |
+| **WT** | Wikipedia, ["Tbh"](https://en.wikipedia.org/wiki/Tbh) | accessed 2026-10-03 | Shutdown date only |
+| **WG** | Wikipedia, ["Gas (app)"](https://en.wikipedia.org/wiki/Gas_(app)) | accessed 2026-10-03 | Co-founders, shutdown date |
 
 ## How claims are labelled
 
 | Label | Meaning |
 |---|---|
-| Plain quote with timestamp | Nikita's own words |
-| "Lenny cites", "read on air by Lenny" | Said by the host; Nikita confirmed or built on it |
-| "Nikita relays a line from..." | Someone else's words, quoted by Nikita |
-| "by his estimate" | Nikita hedged it ("I think") |
-| `[2024]` | True as of the recording; re-check before relying on it |
+| Quote with a source ID | Nikita's own words |
+| "Lenny says", "the host says" | Said by the interviewer; Nikita confirmed or built on it |
+| "Nikita relays..." | Someone else's words, quoted by Nikita |
+| "the team said" | TechCrunch credits it to the tbh team, not Bier by name |
+| "his claim" / "by his estimate" | Nikita's own unverified number, or one he hedged |
+| `[2024]`, `[2026]` | True as of that date; re-check before relying on it |
+| ⚠️ **Conflict** | Sources disagree; all versions are shown |
 
-## Known transcript issues
+## Known conflicts between sources
 
-Auto-captions misspell names. The anonymous messaging app is **Sarahah** (captions show
-"Surah" and "Sarahah").
+| Topic | What each source says |
+|---|---|
+| tbh sale price | Not disclosed. Lenny: "over $30 million" [LP 2:11]. TechCrunch "heard" it was "less than $100 million" [TC2]. Wikipedia: "estimated $100 million" [WT]. |
+| tbh daily users | "more than 2 million daily users" [TC1, 22 Sep 2017]; "2.5 million daily active users" [TC2, 16 Oct 2017; corrected down from 4 million]. |
+| Gas revenue | Lenny: "$11 million in sales", Nikita: "Yeah" [LP 1:09:58]. Nikita: "it made $10 million in 90 days" [OOO 1:00:52]. Sensor Tower via TechCrunch: "almost $7 million in consumer spending" [TC3]. These may measure different things (gross vs net, period). |
+| Gas installs | "10 million downloads" (Lenny, confirmed) [LP]; "7.4 million installs" (Sensor Tower) [TC3]. |
+| tbh launch spot | "the school that we seeded it into, in Georgia" [LP 21:03]; "one school in Georgia" [TC2]; "one city in Georgia" [OOO 53:05]. |
+| X App Store climb | "within I think the first 30 days, we jumped from number 78... to a peak position of number two" [OOO 9:33]; vs "When I joined X two months ago, the app was sitting at No. 78... today we opened at No. 6" [X 2025-09-09]. |
+| Time at X | Joined July 2025 [TC5]; stepped back 5 Aug 2026 [X 2026-08-05]. MediaPost says "the past 15 months" [MP]. |
 
-## Not included
+## Looked at and not used
 
-Career history, the Facebook years, and personal choices from the episode are left out unless
-they carry a method. Nothing from outside this episode is included in this version.
+- **Solana Stories "Crash Course on Building Viral Consumer Apps"** (2025) and a **2018 SCET Berkeley**
+  clip: transcripts could not be retrieved in this pass.
+- **Second-hand summaries** (blogs, Reddit, LinkedIn posts, "lessons from Nikita" videos): left out on
+  purpose. Several repeat wrong figures (one says tbh sold for $100M as fact).
+- **The Sources interview body**: paywalled, so only its free intro is used.

@@ -1,104 +1,113 @@
 ---
-name: consumer-virality-playbook
-description: Audit and design a consumer app for viral growth using the playbook Nikita Bier (tbh, sold to Facebook; Gas, sold to Discord) described on Lenny's Podcast. Use when someone wants their consumer or social app to grow by itself, asks why their app is not spreading, wants a growth audit, is choosing an app idea or audience, designing onboarding, invites, contact sync or app naming, planning a launch test, handling breakout growth, or fighting a viral rumour about their app. Triggers on "make my app go viral", "growth audit", "why aren't users inviting friends", "how do I test this app idea", "time to value", "activation", "k-factor", "invite flow", "our app is blowing up", "there's a hoax about our app".
+name: nikita-bier-consumer-app-virality-playbook
+description: Audit and design a consumer app for viral growth using Nikita Bier's playbook (tbh, sold to Facebook; Gas, sold to Discord; former head of product at X), built only from his own interviews, posts and verified reporting. Use when someone wants their consumer or social app to grow by itself, asks why their app is not spreading, wants a growth audit, is choosing an app idea or audience, designing onboarding, contact sync, a friendfinder, invites or an app name, planning a launch test, instrumenting funnels, handling breakout growth, fighting a rumour about their app, monetizing, or building an AI-era consumer app. Triggers on "make my app go viral", "growth audit", "K-factor", "why aren't users inviting friends", "how do I test this app idea", "time to value", "activation", "onboarding conversion", "invite flow", "friendfinder", "our app is blowing up", "there's a hoax about our app", "what would Nikita Bier do".
 ---
 
-# Consumer Virality Playbook
+# Nikita Bier's Consumer App Virality Playbook
 
-A working method for making consumer apps spread, built from Nikita Bier's own account of
-building 15 apps, 14 duds, and then two #1 apps in the US App Store (tbh and Gas).
+An unofficial, sourced method for making consumer apps spread, built from Nikita Bier's own
+account of 15 apps, 14 duds, two #1 apps in the US App Store (tbh and Gas), two acquisitions,
+four years building zero-to-one apps at Facebook, years of advising founders, and a year as head of
+product at X. Who he is: `references/00-who-is-nikita-bier.md`.
 
-> "With certainty, if you're good at your job, you can make an app grow and go viral." (1:19:21)
-> "Retention for consumer social... there's a tremendous amount of randomness." (1:19:00)
+> "With certainty, if you're good at your job, you can make an app grow and go viral." [LP 1:19:21]
+> "Retention for consumer social is there's a tremendous amount of randomness." [LP 1:19:00]
 
-**Hold both.** Growth is treated here as a science. Durability is not promised by anything in
-this skill. Say so to the user when it matters.
+**Hold both.** Growth is treated here as a science. Durability is not promised. Say so to the user
+when it matters.
 
-Every principle in `references/` carries a timestamp into the source episode
-(see `SOURCES.md`). Quote from there; never attribute anything to Nikita that is not in it.
+## Ground rules for the agent
+
+- Every principle in `references/` carries a source ID and timestamp or link (see `SOURCES.md`).
+  Quote from there. **Never attribute anything to Nikita that is not in a cited source.**
+- Present tagged items (`[2024]`, `[2025]`, `[2026]`) as true at that date and flag them for re-checking.
+- Where sources conflict (⚠️), show the versions; do not pick one silently.
+- Label his unverified results as his claims.
 
 ---
 
 ## Step 1: Intake (ask only what you cannot see)
 
-Get, from the user or their materials:
-
 1. **What the app does** in one sentence, and the core action a user repeats.
-2. **Who it is for**, with age. Age changes everything here (see `references/02-audience.md`).
-3. **Stage:** idea, prototype, launched, or growing.
-4. **Numbers they have:** installs per day, % of new users who invite, invites per inviter,
-   day-1 core actions per user, activation rate, retention. Missing numbers are a finding, not a blocker.
-5. **How users arrive today:** ads, organic, invites, shares, press.
-6. **The first 60 seconds:** what a new user sees and taps, screen by screen.
+2. **Who it is for**, with age, and whether they are at a "social inflection point" (`02-audience.md`).
+3. **Friend graph or interest graph?** (`06-social-graph-and-invites.md`)
+4. **Stage:** idea, prototype, launched, or growing.
+5. **Numbers:** installs per day and their sources, contacts opt-in %, % of new users who invite,
+   invites per inviter, shares (final send events, not attempts), activation rate, retention.
+   Missing numbers are a finding, not a blocker.
+6. **The first 60 seconds:** each screen a new user sees and taps, in order.
 
-Nikita's own first move with a company: "I ask them to show me the analytics. We look at how
-people are distributing the app today, what is the milestone that a user must hit to become
-activated and what's getting in the way of that?" (1:32:44)
+His own first two questions, which you should ask too:
+"I ask them to show me the analytics" [LP 1:32:44] and "how is it growing today?" [OOO 1:08:12]
 
-## Step 2: Place them on the validation ladder
+## Step 2: Check the instrumentation before trusting any number
 
-Read `references/04-validation-ladder.md`. Find the FIRST rung that is not yet proven:
+Run the checks in `08-measurement-and-diagnosis.md` (internal users filtered, logged-out users
+tracked, share = final send). "It starts with just instrumentation." [OOO 1:07:29]
+
+## Step 3: Place them on the validation ladder
+
+Read `04-validation-ladder.md`. Find the FIRST rung not yet proven:
 
 ```
 core flow works  →  spreads inside a group  →  hops between groups  →  people pay
 ```
 
-Everything in the audit is aimed at that rung. Work on later rungs is scope creep: "execute at
-100% for the thing you're trying to validate... and then you can kind of half-ass the rest." (1:11:50)
+The audit aims at that rung. "Execute at 100% for the thing you're trying to validate... and then
+you can kind of half-ass the rest." [LP 1:12:07]
 
-## Step 3: Run the checks for that rung
+## Step 4: Run the checks for that rung
 
 | Stuck on | Load these references |
 |---|---|
 | No idea yet, or idea in doubt | `01-idea.md`, `02-audience.md` |
 | Core flow (users don't use it) | `05-activation.md`, `03-testing.md` |
-| Spreading inside a group | `06-invites-and-naming.md`, `07-funnel-alignment.md`, `03-testing.md` |
-| Hopping between groups | `06-invites-and-naming.md`, `07-funnel-alignment.md` |
-| People pay | `10-monetization.md` |
-| It's working and breaking | `08-breakout-scale.md` |
-| A rumour or hoax is spreading | `09-hoax-defense.md` (treat as urgent, skip the ladder) |
+| Spreading inside a group | `06-social-graph-and-invites.md`, `07-distribution-channels.md`, `03-testing.md` |
+| Hopping between groups | `06-social-graph-and-invites.md`, `07-distribution-channels.md` |
+| People pay | `11-monetization-and-economics.md` |
+| It's working and breaking | `09-breakout-scale.md` |
+| A rumour, or a platform cut you off | `10-hoax-and-platform-risk.md` (urgent: skip the ladder) |
+| AI product, or "should we build this now?" | `15-ai-era.md` |
+| Founder wants audience as distribution | `13-building-in-public-and-posting.md` |
 
-Always also apply `11-guardrails.md`. It is not optional.
+Always apply `12-positive-design-and-guardrails.md`. To run the audit the way he runs his, follow
+`14-how-he-advises-founders.md`.
 
-## Step 4: Deliver the audit
-
-Use this shape. It mirrors how Nikita describes his own engagements (1:35:03): clear the table
-stakes, then name 2 to 3 step-function changes.
+## Step 5: Deliver the audit
 
 ```markdown
 # Growth audit: [app]
 
-**Rung:** [the first unproven rung] · **Why:** [the evidence, or the missing number]
+**Rung:** [first unproven rung] · **Graph:** [friend / interest] · **Why:** [evidence or missing number]
+
+## Instrumentation gaps (fix before trusting the numbers)
+- ...
 
 ## Table stakes (fix first)
-1. [Specific fix] · principle: [name] · ref: [file]
-...
+1. [Specific fix] · principle · ref: [file] · source: [ID]
 
-## Step-function changes (pick one, then test it properly)
-1. [Fundamental change to the product] · expected effect · how to test it in one clean experiment
-2. ...
+## Step-function changes (2 to 3; pick one, then test it properly)
+1. [Fundamental change] · expected effect · how to test it in one clean experiment
 
 ## The test
-- What must be true: [the condition, one rung only]
-- Setup that removes confounding variables: [density, support, etc.]
-- Signal that says yes / no: [metric and threshold the user agrees in advance]
+- What must be true: [one rung only]
+- Setup that removes confounding variables: [density, support, polish]
+- Signal and threshold, agreed in advance; expected read time (he knew within ~48 hours [OOO 56:29])
 
 ## What I could not assess
 - [Missing data, and what to send next]
 ```
 
 Rules for the audit:
-- **Specific beats general.** "Move contact sync before the profile photo step" not "improve onboarding".
-- **Count taps.** Where a flow is in question, count the taps. "Every tap that you get, every single one is so scarce." (14:52)
-- **Quote the playbook, cite the timestamp.** Never invent a statistic, benchmark or quote.
-- **Date-stamp the dated.** Anything marked `[2024]` in references (App Store thresholds, iOS 18
-  contact permissions) must be presented as of 2024 and flagged for re-checking.
-- **Say what is luck.** Nikita estimates about half the companies he works with hit big
-  success and half fail outright, "because consumer is so random." (1:29:28)
+- **Specific beats general.** "Move contact sync before the profile photo step", not "improve onboarding".
+- **Count taps, predict conversions.** Estimate each screen's conversion before looking at data [OOO 15:00].
+- **No silver bullet.** Look at every surface [OOO 1:04:49].
+- **Say what is luck.** About half the companies he advises hit big success and half fail outright,
+  "because consumer is so random." [LP 1:29:28]
 
 ## Refusals
 
-This skill does not help anyone send invites or messages a user did not knowingly send, use
-contact data in ways users did not agree to, fake social proof, or build mechanics that harm
-minors. See `references/11-guardrails.md`. Nikita's own rule: "if you do the wrong thing by
-users, the internet will come back and get even." (1:01:48)
+No sending invites or messages a user did not knowingly send, no using contact data beyond what the
+user agreed to, no fake social proof, no mechanics that harm minors. See
+`12-positive-design-and-guardrails.md`. His rule: "if you do the wrong thing by users, the internet
+will come back and get even." [LP 1:01:48]
