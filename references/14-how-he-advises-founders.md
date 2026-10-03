@@ -22,6 +22,8 @@ Use this file to run an audit the way he describes running his.
 
 ## His engagement, step by step
 
+0. **Vision and audience first.** "The first question I ask them is what is the vision that you have? And
+   then from there I ask who is the target audience." [SOL 0:35]
 1. **Show me the analytics.** "How people are distributing the app today, what is the milestone that
    a user must hit to become activated and what's getting in the way of that?" [LP 1:32:44]
 2. **How is it growing today?** Find existing organic distribution and attribute where downloads come

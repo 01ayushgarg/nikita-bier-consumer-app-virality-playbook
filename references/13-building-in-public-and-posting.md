@@ -22,6 +22,10 @@ and the X job.
 (He wrote this as X's head of product, and the original also promises "we will promote your
 account to others". Treat that part as specific to X at the time.)
 
+In 2026 he put the same idea as a question: "what do you know about more than anyone else in the world?
+Uh what can you do that no one else can?" And: "you can measure the value of an X account by the doors
+that opens for you in real life." [TBS 28:17 to 28:53]
+
 ## Low-quality engagement buries you
 
 > "When people don't engage with it, the algorithm doesn't have any signal to know whether to how to
