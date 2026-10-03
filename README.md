@@ -11,7 +11,7 @@ July 2025 to August 2026.
 > "With certainty, if you're good at your job, you can make an app grow and go viral."
 > Nikita Bier, Lenny's Podcast, 2024
 
-> ⚠️ **Unofficial.** This repo is not written, reviewed or endorsed by Nikita Bier, Lenny's Podcast,
+> This repo is not written, reviewed or endorsed by Nikita Bier, Lenny's Podcast,
 > Lightspeed, TechCrunch or X. It is a summary in our own words with short, credited quotes. Every
 > claim links to its source so you can check it.
 
