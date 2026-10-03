@@ -10,7 +10,11 @@ or noted. All sources were accessed on **3 October 2026**.
 |---|---|---|---|
 | **LP** | Lenny's Podcast, ["How to consistently go viral: Nikita Bier's playbook for winning at consumer apps"](https://www.youtube.com/watch?v=bhnfZhJWCWY), host Lenny Rachitsky | 2024-08-25 | Full transcript read. Cited as `[LP mm:ss]`. |
 | **OOO** | Out of Office (Lightspeed), ["Nikita Bier Is Out Of Office"](https://www.youtube.com/watch?v=tF4j4LB-2rk), host Michael Mignano | 2026-02-10 | Full transcript read (auto-captions). Cited as `[OOO h:mm:ss]`. |
-| **X** | Nikita's posts on X, [@nikitabier](https://x.com/nikitabier) | 2018 to 2026 | About 40 posts, each linked where cited. Cited as `[X yyyy-mm-dd]`. Text is verbatim. |
+| **WIH** | Where It Happens (Greg Isenberg, Sahil Bloom), ["Will Meta Bounce Back? (with Nikita Bier)"](https://www.youtube.com/watch?v=Rql6GZakVTI) | 2022-02 | Nikita's segment (0:00 to 26:47) read in full. Auto-captions without speaker labels; speakers assigned from context. |
+| **TBS** | TBS CROSS DIG with Bloomberg, [interview with Nikita Bier](https://www.youtube.com/watch?v=2fAIZ0tlQZc) | 2026-06-06 | Full English captions read. Mostly about X. |
+| **SOL** | Solana Stories, ["Crash Course on Building Viral Consumer Apps featuring Nikita Bier"](https://www.youtube.com/watch?v=8AGz4TC5a50) | 2025-09-22 | Full (a 4-minute monologue). |
+| **SCET** | SCET Berkeley, ["Nikita Bier"](https://www.youtube.com/watch?v=flFOFtFQJmM) | 2018-02-07 | Full, but it is a 2-minute clip of a longer talk. |
+| **X** | Nikita's posts on X, [@nikitabier](https://x.com/nikitabier) | 2018 to 2026 | 72 posts, each linked where cited. Cited as `[X yyyy-mm-dd]`. Text is verbatim. |
 | **INTRO** | [intro.co/NikitaBier](https://intro.co/NikitaBier), his paid advisory listing | accessed 2026-10-03 | Listing text and price as shown on that date. |
 
 ## Reporting and reference
@@ -24,6 +28,8 @@ or noted. All sources were accessed on **3 October 2026**.
 | **TC5** | TechCrunch, Amanda Silberling, ["Nikita Bier joins X as head of product"](https://techcrunch.com/2025/07/01/nikita-bier-joins-x-as-head-of-product-ive-officially-posted-my-way-to-the-top/) | 2025-07-01 | X role, Lightspeed and Solana roles |
 | **SRC** | Sources (Alex Heath), ["X wants its haters back"](https://sources.news/p/x-wants-its-haters-back) | 2025-12-11 | Link viewer context. Paywalled: only the free intro was read. |
 | **MP** | MediaPost, Colin Kirkland, ["X Head Of Product Steps Down, Becomes Advisor"](https://www.mediapost.com/publications/article/417079/x-head-of-product-steps-down-becomes-advisor.html) | 2026-08-06 | Departure from the X role |
+| **WP** | Washington Post, Taylor Lorenz, ["How a viral teen app became the center of a sex trafficking hoax"](https://www.washingtonpost.com/technology/2022/11/09/debunking-gap-app-sex-trafficking-rumor/) | 2022-11-09 | Gas hoax quotes and facts. Read via [Wayback Machine copy](https://web.archive.org/web/20230101030921/https://www.washingtonpost.com/technology/2022/11/09/debunking-gap-app-sex-trafficking-rumor/) because the live page is behind a sign-in. |
+| **NL** | Top Founders with Nathan Latka, [Sid Bendre of Oleve](https://www.youtube.com/watch?v=6b33IBE50Mo) | 2025-07-15 | Only the founder's second-hand account of Nikita's pricing advice. |
 | **WT** | Wikipedia, ["Tbh"](https://en.wikipedia.org/wiki/Tbh) | accessed 2026-10-03 | Shutdown date only |
 | **WG** | Wikipedia, ["Gas (app)"](https://en.wikipedia.org/wiki/Gas_(app)) | accessed 2026-10-03 | Co-founders, shutdown date |
 
@@ -44,6 +50,7 @@ or noted. All sources were accessed on **3 October 2026**.
 | Topic | What each source says |
 |---|---|
 | tbh sale price | Not disclosed. Lenny: "over $30 million" [LP 2:11]. TechCrunch "heard" it was "less than $100 million" [TC2]. Wikipedia: "estimated $100 million" [WT]. |
+| tbh speed | "got the term sheet within six weeks of launching" [WIH 7:25]; "we signed an agreement to be acquired 48 days later" [X 2022-08-02]; "within 2 months" [OOO 53:49]; "nine weeks" (Lenny) [LP 15:31]. Consistent within a few weeks. |
 | tbh daily users | "more than 2 million daily users" [TC1, 22 Sep 2017]; "2.5 million daily active users" [TC2, 16 Oct 2017; corrected down from 4 million]. |
 | Gas revenue | Lenny: "$11 million in sales", Nikita: "Yeah" [LP 1:09:58]. Nikita: "it made $10 million in 90 days" [OOO 1:00:52]. Sensor Tower via TechCrunch: "almost $7 million in consumer spending" [TC3]. These may measure different things (gross vs net, period). |
 | Gas installs | "10 million downloads" (Lenny, confirmed) [LP]; "7.4 million installs" (Sensor Tower) [TC3]. |
@@ -53,8 +60,9 @@ or noted. All sources were accessed on **3 October 2026**.
 
 ## Looked at and not used
 
-- **Solana Stories "Crash Course on Building Viral Consumer Apps"** (2025) and a **2018 SCET Berkeley**
-  clip: transcripts could not be retrieved in this pass.
+- **Where It Happens, 46:40 to 70:07**: not read; Nikita had left the episode at 26:47.
+- **Host statements presented as facts** (e.g. "100 million dollars in a hundred days" on Where It Happens,
+  growth figures from the TBS host): not attributed to Nikita.
 - **Second-hand summaries** (blogs, Reddit, LinkedIn posts, "lessons from Nikita" videos): left out on
   purpose. Several repeat wrong figures (one says tbh sold for $100M as fact).
 - **The Sources interview body**: paywalled, so only its free intro is used.

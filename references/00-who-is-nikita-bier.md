@@ -8,11 +8,12 @@ A dated timeline. Each line cites its source (see `SOURCES.md`).
 | College | Built **Politify**, a tool showing how candidates' policies would affect your finances. "We got 4 million users on it during that season." | [LP 7:47] |
 | 2010 | Started **Midnight Labs**. Pivoted from government software to a consumer app studio. | [TC1], [OOO 51:28] |
 | 2010s | Built about **15 apps**, "14 of the apps that we launched were basically duds." First app took a year; the last took two weeks. | [LP 15:01, 15:49, 18:54] |
+| 2017-08-02 | Called his lawyer "to ask him how do you liquidate a company", the day before launching the 15th app. | [SCET 0:24], [WIH 6:59] |
 | 2017 (Aug/Sep) | Launched **tbh**, anonymous positive polls for teens, starting at one school in Georgia. #1 free app in the US. | [TC1], [LP 21:03] |
 | 2017-10-16 | **Facebook acquired tbh.** Terms undisclosed (see conflicts in `SOURCES.md`). Co-creators: Bier, Erik Hazzard, Kyle Zaragoza, Nicolas Ducdodon. | [TC2] |
-| 2017 to ~2021 | About **four years at Facebook** building and testing zero-to-one standalone apps; also advised Instagram and Messenger. | [OOO 57:50], [LP 40:41] |
+| 2017 to Nov 2021 | About **four years at Facebook** building and testing zero-to-one standalone apps; also advised Instagram and Messenger. | [OOO 57:50], [LP 40:41], [WP] |
 | 2018-07-02 | Facebook discontinued tbh, "due to low usage". | [WT] |
-| 2022 (Aug) | Launched **Gas**, the tbh concept rebuilt, at the same Georgia school "on the same day 5 years later". Self-funded: "It cost 25,000 bucks." | [OOO 59:36, 1:01:17], [WG] |
+| 2022-08-29 | Launched **Gas** publicly (first named Melt, then Crush) [WP]., the tbh concept rebuilt, at the same Georgia school The tbh concept rebuilt, tested at the same Georgia school "on the same day 5 years later". Self-funded: "It cost 25,000 bucks." | [OOO 59:36, 1:01:17], [WG] |
 | 2023-01-17 | **Discord acquired Gas.** Terms undisclosed. Gas shut down on 7 Nov 2023. | [TC3], [WG] |
 | 2023 to 2025 | Advised consumer apps (Dupe, Saturn, Bible Chat, Flip, Protectors and others) and sold sessions via Intro. Venture partner at Lightspeed, adviser to the Solana Foundation. | [LP 1:28:38, 1:36:11], [OOO 1:03:12, 1:04:20], [X 2024-04-16], [X 2025-02-18], [TC5] |
 | 2025-01 | Launched **Explode**, disappearing photos inside iMessage. | [TC4] |
@@ -40,3 +41,17 @@ A dated timeline. Each line cites its source (see `SOURCES.md`).
 
 He openly says about half of the companies he advises hit big success and half fail outright,
 "because consumer is so random." [LP 1:29:28]
+
+## Why the 15th app worked, in his words
+
+> "We built 15 apps um we were about to shut down we were very close to it and the 15th app went
+> straight to number one in the app store right as we were like basically turning off the lights in the
+> office... It was our hail mary but at the same time it was sort of a magnum opus of everything we had
+> learned over the years." [WIH 6:59 to 7:14]
+
+> "I don't even think we'd be able to pull it off if it wasn't our 15th thing because when it hit we knew
+> exactly what to do we knew exactly how to scale it... if we just struck it on the first try i think it
+> would have crashed and burned really quickly." [WIH 8:24]
+
+His advice in 2018: "Just keep going. No one said it was going to be easy but yeah you might just figure
+it out if you just keep at it. No promises though." [SCET 1:41]

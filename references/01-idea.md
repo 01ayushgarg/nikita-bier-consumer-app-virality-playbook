@@ -27,6 +27,12 @@
 - What goes wrong in the current workaround, and can the product design remove it?
 - Where did you learn this? Nikita's came from long-term users of earlier apps who kept sending feedback [LP 25:04].
 
+## Watch how users hack the product
+
+At X he used the same lens on an existing product: "one of the best ways to inform what to build next is
+to look at your users and see how are they hacking the platform... to me that's identifying uh, latent
+demand. And those are the highest signal features that you could build." [TBS 8:15]
+
 ## Watch the behaviour that is already happening
 
 He tells the same tbh origin in 2026: "I started seeing a pattern on uh Snapchat of uh of teenagers
@@ -57,6 +63,19 @@ just looking for like this avenue to disclose their feelings uh in a in a safe s
 > 1. No one wants to hangout with the friends who need the app: socially awkward 20-somethings
 > 2. Most Americans just go to work, watch Netflix and die"
 
+## Start with a small, even embarrassing, community
+
+> "Identifying a pretty small community that might even be embarrassing to tell your friends... your V1
+> of your product should be embarrassing because you need this level of relevancy for a subset of people
+> where when they see that product, they're like, well, this was made for me. I guess I have to download
+> it... you have to start hyperfocused on a specific community." [SOL 0:47 to 1:14]
+
+## Incumbents are slow to copy you
+
+"Realistically, I think most companies, large companies take 12 to 24 months to respond to competitive
+threats in the market." [LP 45:50] In 2022 he put it at "usually like over two years to respond"
+[WIH 15:38], and said big tech's weakness is "zero to one creating new products" [WIH 11:57].
+
 ## The three core reasons people download apps
 
 > "People download apps to make or save money... to find a mate... to unplug from reality." [LP 42:51 to 43:16]
@@ -79,3 +98,24 @@ exactly here because they cannot "be completely intellectually honest about what
 
 He separates two things: growth can be a science, durable retention is mostly randomness.
 Tell the user which one they are asking about.
+
+## Simple, primal mechanics beat lofty ones
+
+[X 2020-06-18](https://x.com/nikitabier/status/1273437328866832384) (humour, with a real benchmark):
+
+> "—1st Year Social App Founder— "We're going to build a platform for intellectual conversations!"
+> Result: 23 users + 5% retention. —5th Year Social App Founder— "Let's just have people vote on who's
+> the hottest." Result: 10mil users + 40% retention"
+
+## Virality is a science; retention is a black swan
+
+[X 2024-08-16](https://x.com/nikitabier/status/1824491565622104552):
+
+> "Building a retentive social product is a black swan event: it is extraordinarily rare to create the
+> next Facebook and displace a daily communication tool. There is no repeatable path to making it
+> happen. On the other hand, making an app go viral is a science: you can methodically break down
+> funnel steps to ensure users distribute your product."
+
+When it does happen, [X 2024-04-05](https://x.com/nikitabier/status/1776045211220615193): "once per
+decade you'll stumble across what is known as a Black Swan retention chart. When you see it, don't ask
+questions and just find a way to be involved in whatever capacity you can."
