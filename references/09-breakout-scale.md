@@ -36,6 +36,14 @@ ruthless with prioritization as something scales up and put out the largest fire
 Gas: Nikita slept three hours a day for three months; the team worked 9am to midnight, seven
 days a week [LP 1:08:12].
 
+## Expect a crisis every few hours
+
+> "There's a crisis every 3 hours when it's starting to work. To really have a consumer product break
+> out, you essentially need a miracle every single week." [SOL 1:42]
+
+Experience is what makes it survivable: after 14 failures, "when it hit we knew exactly what to do we knew
+exactly how to scale it." [WIH 8:24]
+
 ## Spend nothing you don't have to
 
 Gas "ran almost entirely on startup credits" (AWS, Mixpanel). When early data came in: "now

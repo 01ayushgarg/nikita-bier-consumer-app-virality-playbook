@@ -40,6 +40,20 @@ come before us and most of them actually had to shut down because of bullying. U
 well, how can we uh capture the value of why these anonymous apps were created and still make sure
 that, you know, people weren't bullied?" [OOO 52:47]
 
+## Constraints can be the big idea
+
+[X 2025-05-24](https://x.com/nikitabier/status/1926295017619939743):
+
+> "Sometimes the "big idea" of an app is simply forcing constraints that feel onerous to users at the
+> time, but preserve the integrity of the community... So we pre-set the messages they could send so
+> that they were only positive. This not only cured the bullying problem, but it was additive too: we
+> 10x'd messages sent... As you think about what "big idea" will resonate with users, it may just be
+> giving them less freedom."
+
+And why, [X 2022-04-16](https://x.com/nikitabier/status/1515118303420682240): "What people don't
+understand about social apps—at scale people are deranged. When building TBH, we knew we couldn't
+handle the volume of abuse so we didn't allow typing—only voting on polls."
+
 ## Think like an adversary
 
 > "It also taught me how to think like an adversary, which is very critical when you're building
@@ -47,6 +61,10 @@ that, you know, people weren't bullied?" [OOO 52:47]
 > uh on every front um like spam." [OOO 3:18]
 
 Design every feature assuming someone will try to abuse it.
+
+At X he used the same instinct: "how might people manipulate this feature?" [TBS 40:42] And a rule for
+AI: "Our basic principle is that a machine should not be talking to a human unprompted... then that is
+effectively spam." [TBS 25:21]
 
 ## This skill's refusals
 

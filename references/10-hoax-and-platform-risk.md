@@ -34,6 +34,21 @@ tomorrow." The next day the App Store page was covered in such reviews.
 - **Investors:** told interested investors that unless they could get a celebrity to post that it
   wasn't true, they weren't interested [LP 1:08:44].
 
+## Fight memes with memes
+
+From the Washington Post's reporting on the Gas hoax [WP]:
+
+- "The challenge is that you can only fight memes with memes. If it's not easily screenshotable and
+  exciting it's not going to get more visibility than the original message."
+- On hiring a crisis PR firm, which he called useless: "There's no way to combat that with press...
+  There's no channel for the message to get distributed because [teenagers] are not reading the legacy
+  news."
+- "The app grows on its own, but dealing with the hoax requires a lot of labor."
+- What they shipped: a push notification to every user about safety, a safety center, and a TikTok
+  debunk (the Post's account).
+
+**Applying it:** the answer has to travel through the same channel, in the same format, as the rumour.
+
 ## Relaunching under a new name only works once
 
 They first renamed and relaunched on the other side of the country. The hoax followed through
