@@ -69,9 +69,16 @@ you can kind of half-ass the rest." [LP 1:12:07]
 | A rumour, or a platform cut you off | `10-hoax-and-platform-risk.md` (urgent: skip the ladder) |
 | AI product, or "should we build this now?" | `15-ai-era.md` |
 | Founder wants audience as distribution | `13-building-in-public-and-posting.md` |
+| Utility, non-social or AI app (no friend graph) | `16-non-social-utility-and-ai-apps.md` first, then the rows above |
+| Mature app with many users, or "how did he grow X?" | `17-what-he-did-at-x.md`, `08-measurement-and-diagnosis.md` |
 
 Always apply `12-positive-design-and-guardrails.md`. To run the audit the way he runs his, follow
 `14-how-he-advises-founders.md`.
+
+Hand the founder the matching fill-in template where it helps: `templates/01-instrumentation-checklist.md`
+(Step 2), `templates/02-48-hour-test-plan.md` (the test), `templates/03-k-factor-worksheet.md` (invites
+and shares), `templates/04-invite-flow-teardown.md` (friend-finding and invites). A finished example of
+the output is in `examples/01-worked-example-growth-audit.md`.
 
 ## Step 5: Deliver the audit
 

@@ -39,13 +39,29 @@ July 2025 to August 2026.
 | 13 | [Building in public and posting](references/13-building-in-public-and-posting.md) | Audience as distribution, his daily-insight formula, previewing features |
 | 14 | [How he advises founders](references/14-how-he-advises-founders.md) | His engagement step by step, pricing, public case studies |
 | 15 | [The AI era](references/15-ai-era.md) | Cheap building, probabilistic products, LLMs as the new contact sync |
+| 16 | [Non-social, utility and AI apps](references/16-non-social-utility-and-ai-apps.md) | What carries over when you don't have a friend graph, and what doesn't |
+| 17 | [What he did at X](references/17-what-he-did-at-x.md) | xAI adviser, head of product (onboarding, links, country of origin, bots, creators, XChat, the rebuild), stepping back |
+
+### Templates (fill these in)
+
+| Template | Use it to |
+|---|---|
+| [01 Instrumentation checklist](templates/01-instrumentation-checklist.md) | Make sure your numbers are real before you act on them |
+| [02 48-hour test plan](templates/02-48-hour-test-plan.md) | Design one clean test that gives a yes or no fast |
+| [03 K-factor worksheet](templates/03-k-factor-worksheet.md) | Measure your viral coefficient and find the next bit of it |
+| [04 Invite flow teardown](templates/04-invite-flow-teardown.md) | Score your friend-finding and invite flow, screen by screen |
+
+### Worked example
+
+[A full growth audit, start to finish](examples/01-worked-example-growth-audit.md): a fictional app with
+invented numbers, run through the whole method so you can see what the output looks like.
 
 ### The agent skill
 
 `SKILL.md` turns the playbook into a growth audit. Give your agent your app, your numbers and your
 first 60 seconds of onboarding. It checks your instrumentation, finds the first unproven rung of the
 validation ladder, runs the checks for that rung, and returns table stakes, 2 to 3 step-function
-changes and one clean test, each tied to a principle and a source.
+changes and one clean test, each tied to a principle and a source. See the worked example above.
 
 ## Install
 
@@ -80,72 +96,124 @@ Or just read the chapters above.
 All accessed on 3 October 2026. Full details, labelling rules and the conflicts table are in
 [`SOURCES.md`](SOURCES.md).
 
-### Long-form interviews (Nikita in his own words)
+### Interviews and talks (Nikita in his own words)
 
 1. **Lenny's Podcast**: "How to consistently go viral: Nikita Bier's playbook for winning at consumer
    apps", with Lenny Rachitsky, 25 Aug 2024. https://www.youtube.com/watch?v=bhnfZhJWCWY
 2. **Out of Office (Lightspeed)**: "Nikita Bier Is Out Of Office", with Michael Mignano, 10 Feb 2026.
    https://www.youtube.com/watch?v=tF4j4LB-2rk
+3. **Where It Happens** (Greg Isenberg, Sahil Bloom): "Will Meta Bounce Back? (with Nikita Bier)", Feb
+   2022. https://www.youtube.com/watch?v=Rql6GZakVTI
+4. **TBS CROSS DIG with Bloomberg**: interview with Nikita Bier as X head of product, 6 Jun 2026.
+   https://www.youtube.com/watch?v=2fAIZ0tlQZc
+5. **Solana Stories**: "Crash Course on Building Viral Consumer Apps featuring Nikita Bier", 22 Sep 2025.
+   https://www.youtube.com/watch?v=8AGz4TC5a50
+6. **SCET Berkeley**: "Nikita Bier", 7 Feb 2018 (2-minute clip). https://www.youtube.com/watch?v=flFOFtFQJmM
 
 ### Reporting
 
-3. **TechCrunch**, Josh Constine: "How tbh hit #1 by turning anonymity positive", 22 Sep 2017.
+7. **TechCrunch**, Josh Constine: "How tbh hit #1 by turning anonymity positive", 22 Sep 2017.
    https://techcrunch.com/2017/09/22/tbh-app/
-4. **TechCrunch**, Josh Constine: "Facebook acquires anonymous teen compliment app tbh, will let it run",
+8. **TechCrunch**, Josh Constine: "Facebook acquires anonymous teen compliment app tbh, will let it run",
    16 Oct 2017. https://techcrunch.com/2017/10/16/facebook-acquires-anonymous-teen-compliment-app-tbh-will-let-it-run/
-5. **TechCrunch**, Amanda Silberling: "Discord acquires Gas, a compliments-based social media app for
-   teens", 17 Jan 2023. https://techcrunch.com/2023/01/17/discord-acquires-gas-a-compliments-based-social-media-app-for-teens/
-6. **TechCrunch**, Ivan Mehta: "Creator of Gas and tbh makes an app for disappearing photos via
-   iMessage", 15 Jan 2025. https://techcrunch.com/2025/01/15/creator-of-gas-and-tbh-makes-an-app-for-disappearing-photos-via-imessage/
-7. **TechCrunch**, Amanda Silberling: "Nikita Bier joins X as head of product: 'I've officially posted
-   my way to the top'", 1 Jul 2025. https://techcrunch.com/2025/07/01/nikita-bier-joins-x-as-head-of-product-ive-officially-posted-my-way-to-the-top/
-8. **Sources** (Alex Heath): "X wants its haters back", 11 Dec 2025 (free intro only).
-   https://sources.news/p/x-wants-its-haters-back
-9. **MediaPost**, Colin Kirkland: "X Head Of Product Steps Down, Becomes Advisor", 6 Aug 2026.
-   https://www.mediapost.com/publications/article/417079/x-head-of-product-steps-down-becomes-advisor.html
+9. **Washington Post**, Taylor Lorenz: "How a viral teen app became the center of a sex trafficking hoax",
+   9 Nov 2022. https://www.washingtonpost.com/technology/2022/11/09/debunking-gap-app-sex-trafficking-rumor/
+10. **TechCrunch**, Amanda Silberling: "Discord acquires Gas, a compliments-based social media app for
+    teens", 17 Jan 2023. https://techcrunch.com/2023/01/17/discord-acquires-gas-a-compliments-based-social-media-app-for-teens/
+11. **TechCrunch**, Ivan Mehta: "Creator of Gas and tbh makes an app for disappearing photos via
+    iMessage", 15 Jan 2025. https://techcrunch.com/2025/01/15/creator-of-gas-and-tbh-makes-an-app-for-disappearing-photos-via-imessage/
+12. **TechCrunch**, Amanda Silberling: "Nikita Bier joins X as head of product: 'I've officially posted
+    my way to the top'", 1 Jul 2025. https://techcrunch.com/2025/07/01/nikita-bier-joins-x-as-head-of-product-ive-officially-posted-my-way-to-the-top/
+13. **Sources** (Alex Heath): "X wants its haters back", 11 Dec 2025 (free intro only).
+    https://sources.news/p/x-wants-its-haters-back
+14. **MediaPost**, Colin Kirkland: "X Head Of Product Steps Down, Becomes Advisor", 6 Aug 2026.
+    https://www.mediapost.com/publications/article/417079/x-head-of-product-steps-down-becomes-advisor.html
+
+### Founders he advised, in their own words
+
+15. **Top Founders with Nathan Latka**: Sid Bendre of Oleve, 15 Jul 2025 (second-hand account of
+    Nikita's pricing advice). https://www.youtube.com/watch?v=6b33IBE50Mo
 
 ### Reference
 
-10. **Wikipedia**: "Tbh" (dates only). https://en.wikipedia.org/wiki/Tbh
-11. **Wikipedia**: "Gas (app)" (dates and co-founders only). https://en.wikipedia.org/wiki/Gas_(app)
-12. **Intro**: Nikita Bier's advisory listing. https://intro.co/NikitaBier
+16. **Wikipedia**: "Tbh" (dates only). https://en.wikipedia.org/wiki/Tbh
+17. **Wikipedia**: "Gas (app)" (dates and co-founders only). https://en.wikipedia.org/wiki/Gas_(app)
+18. **Intro**: Nikita Bier's advisory listing. https://intro.co/NikitaBier
 
-### Nikita's posts on X (34 posts, @nikitabier)
+### Nikita's posts on X (@nikitabier), 72 posts, oldest first
 
-13. 2018-05-30 · the two questions every social app must answer · https://x.com/nikitabier/status/1001666968917757952
-14. 2019-03-19 · why "meet up with friends" apps fail · https://x.com/nikitabier/status/1107871174413803520
-15. 2019-04-02 · invites depend on age and social inflection points · https://x.com/nikitabier/status/1112886629910241280
-16. 2021-06-11 · under 70% contacts access is "dead on arrival" · https://x.com/nikitabier/status/1403498766737444865
-17. 2021-07-09 · assume you're wrong, build a pivot map · https://x.com/nikitabier/status/1413392823630680071
-18. 2021-08-13 · dumb PM vs smart PM on funnels · https://x.com/nikitabier/status/1426229686175027201
-19. 2022-08-09 · 0.99 vs 1.01 K-factor · https://x.com/nikitabier/status/1557132295714222080
-20. 2023-05-25 · de-risk by changing only the interaction model · https://x.com/nikitabier/status/1661733445163417601
-21. 2023-05-26 · one sign-in method on the same protocol as invites · https://x.com/nikitabier/status/1662100378500866049
-22. 2023-08-07 · two types of growth people · https://x.com/nikitabier/status/1688538948514021376
-23. 2023-10-01 · the 4-month viral app team · https://x.com/nikitabier/status/1708513023990645011
-24. 2023-11-29 · satire on skipping contacts access · https://x.com/nikitabier/status/1729676931858153501
-25. 2023-12-25 · don't apologise into a pile-on · https://x.com/nikitabier/status/1739083277053620418
-26. 2024-01-25 · App Store fees in Europe · https://x.com/nikitabier/status/1750592825060921353
-27. 2024-04-16 · rebuilding Flip's friendfinder · https://x.com/nikitabier/status/1780307682475549154
-28. 2024-04-18 · don't dismiss taboo ideas · https://x.com/nikitabier/status/1780967619199467685
-29. 2024-07-21 · what his $10k/month advisory covers · https://x.com/nikitabier/status/1815130311963168831
-30. 2024-09-19 · "RIP Social Apps" after iOS 18; LLMs as the new contact sync · https://x.com/nikitabier/status/1836612494938509664
-31. 2024-11-16 · against "minimum viable products" · https://x.com/nikitabier/status/1857896428317630893
-32. 2025-02-08 · "adults have no friends" · https://x.com/nikitabier/status/1888375654850453743
-33. 2025-02-18 · advising Protectors · https://x.com/nikitabier/status/1891685562412675284
-34. 2025-02-25 · founders must own Mixpanel · https://x.com/nikitabier/status/1894468176584610053
-35. 2025-05-10 · build for the network · https://x.com/nikitabier/status/1921278141122887970
-36. 2025-05-11 · predicting push opt-in; product sense · https://x.com/nikitabier/status/1921708920181055975
-37. 2025-05-15 · interest graphs are hard to activate · https://x.com/nikitabier/status/1922864090277392756
-38. 2025-05-21 · the "60% tax" of sound-on sign-up · https://x.com/nikitabier/status/1925179335180197902
-39. 2025-09-04 · one insight a day for 6 months · https://x.com/nikitabier/status/1963498520805007470
-40. 2025-09-09 · App Store rank counts first-time downloads only · https://x.com/nikitabier/status/1965421715732759000
-41. 2026-01-20 · new-user ramp is X's key growth lever · https://x.com/nikitabier/status/2013410692444102793
-42. 2026-02-21 · "I really quit the viral app business just in time" · https://x.com/nikitabier/status/2025092951014301841
-43. 2026-07-07 · original content as the arbitrage on X · https://x.com/nikitabier/status/2074341886333157582
-44. 2026-07-28 · software as self-expression · https://x.com/nikitabier/status/2082140254237241588
-45. 2026-08-05 · stepping back from leading product at X · https://x.com/nikitabier/status/2085105586966827343
-46. 2026-09-20 · deterministic vs probabilistic products · https://x.com/nikitabier/status/2101763620954894647
+- 2018-05-30 · https://x.com/nikitabier/status/1001666968917757952
+- 2019-03-19 · https://x.com/nikitabier/status/1107871174413803520
+- 2019-04-02 · https://x.com/nikitabier/status/1112886629910241280
+- 2020-06-18 · https://x.com/nikitabier/status/1273437328866832384
+- 2021-06-11 · https://x.com/nikitabier/status/1403498766737444865
+- 2021-07-09 · https://x.com/nikitabier/status/1413392823630680071
+- 2021-08-13 · https://x.com/nikitabier/status/1426229686175027201
+- 2022-04-16 · https://x.com/nikitabier/status/1515118303420682240
+- 2022-08-09 · https://x.com/nikitabier/status/1557132295714222080
+- 2023-02-01 · https://x.com/nikitabier/status/1620821649888264195
+- 2023-04-18 · https://x.com/nikitabier/status/1648324047111847936
+- 2023-05-25 · https://x.com/nikitabier/status/1661733445163417601
+- 2023-05-26 · https://x.com/nikitabier/status/1662100378500866049
+- 2023-07-15 · https://x.com/nikitabier/status/1680336066325393408
+- 2023-08-07 · https://x.com/nikitabier/status/1688538948514021376
+- 2023-10-01 · https://x.com/nikitabier/status/1708513023990645011
+- 2023-11-29 · https://x.com/nikitabier/status/1729676931858153501
+- 2023-12-23 · https://x.com/nikitabier/status/1738688024253493290
+- 2023-12-25 · https://x.com/nikitabier/status/1739083277053620418
+- 2024-01-15 · https://x.com/nikitabier/status/1746756081194619066
+- 2024-01-25 · https://x.com/nikitabier/status/1750592825060921353
+- 2024-02-06 · https://x.com/nikitabier/status/1754896706880127185
+- 2024-04-05 · https://x.com/nikitabier/status/1776045211220615193
+- 2024-04-16 · https://x.com/nikitabier/status/1780307682475549154
+- 2024-04-18 · https://x.com/nikitabier/status/1780967619199467685
+- 2024-06-21 · https://x.com/nikitabier/status/1804214914472644975
+- 2024-07-03 · https://x.com/nikitabier/status/1808546435836883032
+- 2024-07-21 · https://x.com/nikitabier/status/1815130311963168831
+- 2024-08-16 · https://x.com/nikitabier/status/1824491565622104552
+- 2024-09-19 · https://x.com/nikitabier/status/1836612494938509664
+- 2024-10-24 · https://x.com/nikitabier/status/1849291216166289772
+- 2024-11-15 · https://x.com/nikitabier/status/1857293213624582551
+- 2024-11-16 · https://x.com/nikitabier/status/1857896428317630893
+- 2025-02-08 · https://x.com/nikitabier/status/1888375654850453743
+- 2025-02-18 · https://x.com/nikitabier/status/1891685562412675284
+- 2025-02-25 · https://x.com/nikitabier/status/1894468176584610053
+- 2025-05-10 · https://x.com/nikitabier/status/1921278141122887970
+- 2025-05-11 · https://x.com/nikitabier/status/1921708920181055975
+- 2025-05-15 · https://x.com/nikitabier/status/1922864090277392756
+- 2025-05-21 · https://x.com/nikitabier/status/1925179335180197902
+- 2025-05-24 · https://x.com/nikitabier/status/1926295017619939743
+- 2025-07-06 · https://x.com/nikitabier/status/1941655319198958039
+- 2025-09-04 · https://x.com/nikitabier/status/1963498520805007470
+- 2025-09-09 · https://x.com/nikitabier/status/1965421715732759000
+- 2025-10-12 · https://x.com/nikitabier/status/1977446408136650785
+- 2025-10-14 · https://x.com/nikitabier/status/1978132382868988310
+- 2025-10-16 · https://x.com/nikitabier/status/1978930409296601166
+- 2025-10-19 · https://x.com/nikitabier/status/1979994223224209709
+- 2025-11-19 · https://x.com/nikitabier/status/1991016787543035907
+- 2025-11-22 · https://x.com/nikitabier/status/1992335925322613127
+- 2025-12-02 · https://x.com/nikitabier/status/1995990576391749850
+- 2026-01-07 · https://x.com/nikitabier/status/2008805057849082018
+- 2026-01-15 · https://x.com/nikitabier/status/2011825522817270230
+- 2026-01-20 · https://x.com/nikitabier/status/2013410692444102793
+- 2026-01-21 · https://x.com/nikitabier/status/2014079005025247240
+- 2026-02-14 · https://x.com/nikitabier/status/2022496540275937525
+- 2026-02-21 · https://x.com/nikitabier/status/2025092951014301841
+- 2026-02-24 · https://x.com/nikitabier/status/2026107397044109347
+- 2026-03-25 · https://x.com/nikitabier/status/2036603028619534564
+- 2026-04-22 · https://x.com/nikitabier/status/2047041338106159484
+- 2026-04-24 · https://x.com/nikitabier/status/2047747631624183889
+- 2026-04-25 · https://x.com/nikitabier/status/2047909972990927255
+- 2026-06-07 · https://x.com/nikitabier/status/2063767110736908757
+- 2026-07-01 · https://x.com/nikitabier/status/2072203879479910490
+- 2026-07-07 · https://x.com/nikitabier/status/2074341886333157582
+- 2026-07-15 · https://x.com/nikitabier/status/2077479511202152728
+- 2026-07-16 · https://x.com/nikitabier/status/2077774853650944028
+- 2026-07-24 · https://x.com/nikitabier/status/2080747924380856519
+- 2026-07-28 · https://x.com/nikitabier/status/2082140254237241588
+- 2026-08-05 · https://x.com/nikitabier/status/2085105586966827343
+- 2026-09-20 · https://x.com/nikitabier/status/2101763620954894647
+- 2026-10-03 · https://x.com/nikitabier/status/2106208271778668930
 
 ---
 
