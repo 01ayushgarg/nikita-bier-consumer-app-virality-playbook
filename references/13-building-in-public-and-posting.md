@@ -1,61 +1,71 @@
 # 13 · Building in public, and posting as distribution
 
 Nikita's audience is part of his playbook: it brought him advisory clients, the xAI advisory role
-and the X job.
+and the X job (chapter 17).
 
-> "I've been sharing sort of my learnings over the years on X since like 2017. Uh, and uh, that's kind
-> of how this like big audience grew around me. And I realized a lot of people reached out for advice
-> on their apps." [OOO 1:02:58]
+> "i've been sharing sort of my learnings over the years on x since like 2017. uh, and uh, that's kind
+> of how this like big audience grew around me." [OOO 1:02:58]
 
-> "I went from like 5,000 followers to now it's like close to 800,000." [OOO 25:12]
+> "i went from like 5,000 followers to now it's like close to 800,000." [OOO 25:24]
 
 ## His formula for becoming the expert in a niche
 
-[X 2025-09-04](https://x.com/nikitabier/status/1963498520805007470):
+His September 2025 post opens by saying riches on X won't come from creator revenue or meme coins,
+then gives the formula. Paraphrased: pick the one subject you know better than anyone, post one
+unexpected insight from your experience, "Keep it under 5 sentences", and do it daily for six months.
+[X 2025-09-04](https://x.com/nikitabier/status/1963498520805007470)
 
-> "Think about one subject matter that you know more about than anyone else in the world. It can be
-> anything: plumbing, menswear, Indian food, furniture, social apps, whatever. Post one unexpected
-> insight you picked from your experience in that area. Keep it under 5 sentences. Do this every day
-> for 6 months... By the end, you will be recognized as the world's leading expert in that subject
-> area and you can charge whatever you want for endorsements, your time, or whatever."
+He wrote it as X's head of product, and the post also promises that X will promote accounts that
+stick to it. Treat that part as specific to X at the time.
 
-(He wrote this as X's head of product, and the original also promises "we will promote your
-account to others". Treat that part as specific to X at the time.)
-
-In 2026 he put the same idea as a question: "what do you know about more than anyone else in the world?
-Uh what can you do that no one else can?" And: "you can measure the value of an X account by the doors
-that opens for you in real life." [TBS 28:17 to 28:53]
+In 2026 he put the same idea as a question: "what do you know about more than anyone else in the
+world? uh what can you do that no one else can?" [TBS 28:21] And: "you can measure the value of an x
+account by the doors that opens for you in real life." [TBS 28:56]
 
 ## Low-quality engagement buries you
 
-> "When people don't engage with it, the algorithm doesn't have any signal to know whether to how to
-> rank your content. Uh and so I said, you know... when you actually have something important to post,
-> it ends up getting buried." [OOO 22:43]
+> "when people don't engage with it, the algorithm doesn't have any signal to know whether to how to
+> rank your content." [OOO 22:47]
 
-On X in 2026, original content is the opening: "If you are a creator that does not recycle other
-people's content, you have the biggest arbitrage opportunity of your career to build an audience
-here." [X 2026-07-07](https://x.com/nikitabier/status/2074341886333157582)
+On X in 2026 he said original creators have "the biggest arbitrage opportunity of your career to
+build an audience here." [X 2026-07-07](https://x.com/nikitabier/status/2074341886333157582)
 
 ## Build in public: preview, then launch with precision
 
-> "We'll share kind of early ideas of what we want to do on the platform uh what sort of features we
-> want to launch uh to get feedback understand the edge cases you know get buyin from the community
-> and make sure that when we launch we're launching with like absolute precision." [OOO 17:23]
+> "we'll share kind of early ideas of what we want to do on the platform uh what sort of features we
+> want to launch uh to get feedback understand the edge cases" [OOO 17:37]
 
-Worked example: X's Country of Origin label was suggested by users, previewed first, and a region
-toggle was added for countries where it could put people at risk [OOO 31:12 to 32:03].
-
-Being a heavy user makes the loop fast: "the moment we launch something like within seconds I'm
-getting tagged and I know exactly how it's being like interpreted." [OOO 17:12]
+Being a heavy user makes the loop fast: "the moment we launch something like within seconds i'm
+getting tagged and i know exactly how it's being like interpreted" [OOO 17:14].
 
 ## Don't apologise into a pile-on
 
-[X 2023-12-25](https://x.com/nikitabier/status/1739083277053620418):
+His 2023 view: when criticised, “double down”, because an apology invites bad-faith dissection and
+alienates supporters. [X 2023-12-25](https://x.com/nikitabier/status/1739083277053620418) This is his
+opinion, not a rule, and it sits next to another lesson from a public backlash he caused in crypto:
+"never ever uh say anything uh critical about gm." [OOO 23:15] Know a community's rituals before
+you criticise them.
 
-> "The one thing that the Internet Age has made apparent: when faced with criticism, your best bet is
-> to double down. An apology will only invite critics to dissect your apology in bad faith while also
-> alienating your supporters."
+---
 
-His view, not a universal rule. It sits alongside his other lesson from a public backlash: "never
-ever uh say anything uh critical about GM. that's like such a cornerstone of crypto culture"
-[OOO 23:12]. Know a community's rituals before you criticise them.
+## How to apply it (our reading)
+
+1. **Pick the niche** in one line: the subject where your experience beats anyone's.
+2. **Keep a daily insight log.** One unexpected, specific observation from your work, under five
+   sentences. Numbers and counter-intuitive results travel best.
+3. **Post daily for six months**, then judge it by his measure: which doors opened (clients,
+   hires, partners, press)?
+4. **Preview product changes** to that audience before launch; collect edge cases; then ship.
+5. **Respond to criticism with evidence**, not reflexive apology or reflexive defiance.
+
+**Worked numbers (invented).** 180 posts over six months. If 5% (9 posts) do well and each brings 3
+useful inbound messages, that is 27 conversations with people in your niche, which is the point.
+
+**Failure modes.**
+- Reposting other people's content (he says the algorithm penalises recycled work).
+- Engagement bait that trains the algorithm that your posts get no real reaction.
+- Previewing features to an audience that is not your users.
+- Copying “double down” [X 2023-12-25] as a crisis policy. For safety or harm to users, fix and say so (chapter 10).
+
+**Limits.** His audience grew while he was a known founder. A new founder should expect slower
+growth and judge success by doors opened, not follower count.

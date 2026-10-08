@@ -2,95 +2,93 @@
 
 ## Charge for the most-requested thing
 
-On tbh, "the number one support message we received was can I pay to reveal who sent me polls?"
-Nikita kept asking himself whether monetizing would have made more than the acquisition [LP 56:23 to 56:40].
-
-In 2026: "I always wondered, you know, like if we monetized it, would we have had to have sold?"
-[OOO 58:18]
+On tbh, "the number one support message we received was can i pay to reveal who sent me polls?" He
+still asks whether monetizing "made even more than the acquisition" [LP 56:26]. In 2026:
+"i always wondered, you know, like if we monetized it, would we have had to have sold?" [OOO 58:20]
 
 Gas answered it with **God Mode**, an optional subscription that "gives users hints about who their
-secret complimenters are" [TC3]. Wikipedia lists it at $6.99 [WG].
+secret complimenters are" [TC3]. (We no longer give a price: the only source we had for it was
+Wikipedia, which this repo uses for dates only.)
 
 ⚠️ **Conflict, how much Gas made:**
-- Lenny: "$11 million in sales"; Nikita: "Yeah" [LP 1:09:58]
-- Nikita: "it made $10 million in 90 days" [OOO 1:00:52]
-- Sensor Tower, via TechCrunch: "almost $7 million in consumer spending since its launch" [TC3]
-
-**Checks to run:**
-- What is the top request in support? Is it something users would pay for?
-- Does the paid feature answer a curiosity or desire the free product creates?
-- Validate payment only after the earlier rungs hold (see `04-validation-ladder.md`).
+- Lenny: "$11 million in sales through the app"; Nikita: “yeah” [LP 1:09:57]
+- Nikita: "it made $10 million in 90 days" [OOO 1:00:57]
+- Sensor Tower, via TechCrunch: "almost $7 million in consumer spending" since launch [TC3]
 
 ## A founder's account of his pricing advice
 
-Oleve co-founder Sid Bendre, on Nathan Latka's show, says his co-founder messaged Nikita, and "Nikita was
-like uh switch to weekly subscriptions and charge more or something like that." [NL 12:52] Second-hand
-and hedged by the founder himself, so treat it as an anecdote, not a rule.
+Oleve co-founder Sid Bendre, on Nathan Latka's show, says Nikita told his co-founder to "switch to
+weekly subscriptions and charge more or something like that." [NL 12:57] Second-hand and hedged by
+the founder himself: an anecdote, not a rule.
 
 ## Know which kind of app you are building
 
-[X 2024-10-24](https://x.com/nikitabier/status/1849291216166289772):
-
-> "There are basically two types of apps you can build: A. Durable Apps: The entire business is focused
-> on continued, repeat engagement. Growth creates perpetual value for the business. B. Paywall-Ad
-> Arbitrage Apps: The business model is primarily people forgetting to cancel subscriptions. They have
-> identified a unique ad channel that has profitable yield, but retention is basically non-existent...
-> Both ventures have their own merits and you can make life-changing money with either. However, the
-> absolute last thing you should is raise outside funding for Type B."
+In a 2024 post he splits apps into **durable apps**, built on repeat engagement, and **paywall-ad
+arbitrage apps**, where the business model is "primarily people forgetting to cancel
+subscriptions" and retention is close to nil. Either can make “life-changing money”, but he says the
+last thing you should do is raise outside funding for the second type.
+[X 2024-10-24](https://x.com/nikitabier/status/1849291216166289772)
 
 ## Run lean
 
-- tbh: "the five-person team purposefully kept its burn rate low to maximize its runway and get more
-  chances to experiment" (TechCrunch) and "We were running towards the end of our runway. We only had
-  maybe 60 days left" (the team) [TC1]. Office rent: $1,800 a month [LP 37:50].
-- Gas: "the entire company was run on free startup credits... there were no salaries. We just used
-  just everyone had equity... I self- financed it. It cost 25,000 bucks to get it started up."
-  [OOO 1:01:04 to 1:01:17]
-- Negotiate everything: "now it's time for me to negotiate every bill down to the last cent of
-  margin for every vendor." [LP 1:10:11]
-- His own benchmark, [X 2023-12-23](https://x.com/nikitabier/status/1738688024253493290): "When the
-  tbh app hit 4 million DAU, our burn rate excluding AWS (i.e., salaries and office only) was
-  $32,000/mo. And every morning on the commute to the office, I called all our service providers and
-  demanded a 30% cut to our invoices." ⚠️ TechCrunch reported 2.5 million DAU and corrected its own
-  "4 million" after Bier deleted a tweet implying it [TC2].
+- tbh: the team "purposefully kept its burn rate low to maximize its runway" (TechCrunch) and had
+  “maybe 60 days left” before launch (the team) [TC1]. Office rent: $1,800 a month [LP 37:48].
+- Gas: "the entire company was run on free startup credits too... there were no salaries."
+  [OOO 1:00:57 to 1:01:08] He self-financed it for about $25,000 [OOO 1:01:19].
+- His 2023 benchmark: when tbh hit what he calls 4 million daily users, burn excluding AWS was about
+  $32,000 a month, and he asked every vendor for a 30% cut.
+  [X 2023-12-23](https://x.com/nikitabier/status/1738688024253493290) ⚠️ TechCrunch reported 2.5
+  million daily users and corrected its own “4 million” figure [TC2].
 
 ## Raising money for a social app `[2023]`
 
-Valuation expectations he published, [X 2023-04-18](https://x.com/nikitabier/status/1648324047111847936):
+Valuation ranges he published in April 2023 for consumer social apps
+[X 2023-04-18](https://x.com/nikitabier/status/1648324047111847936):
 
-> "If you're building a consumer social app, this is realistically what valuations you should expect
-> from investors:
-> • No Product (w/ 1-2 engineers): $6 million
-> • Prototype: $12 million
-> • Post-Launch (No traction): $8 million
-> • Post-Launch (Topping the charts): $80-150 million"
+| Stage | His figure |
+|---|---|
+| No product, 1 to 2 engineers | $6M |
+| Prototype | $12M |
+| Launched, no traction | $8M |
+| Launched and topping the charts | $80M to $150M |
 
-How he pitched, [X 2024-07-03](https://x.com/nikitabier/status/1808546435836883032):
-
-> "After about 3 months of trial & error, I switched to:
-> ⬝ Hand them a prototype
-> ⬝ Leave the room
-> ⬝ Quickly text my team to interact with the investor on the app
-> Then after 5 minutes, I would come back into the room and start explaining the longterm vision...
-> And if the product demo doesn't resonate with them: they were never going to invest anyway."
+How he pitched, from a 2024 post: hand investors a prototype, leave the room, have the team interact
+with them in the app, then come back and talk vision. His point is that consumer products should
+"speak for themselves".
+[X 2024-07-03](https://x.com/nikitabier/status/1808546435836883032)
 
 ## Platform fees change the math `[2024]`
 
-[X 2024-01-25](https://x.com/nikitabier/status/1750592825060921353):
-
-> "Under the App Store's new fee structure for Europe, if you make $10 million in sales, Apple's cut
-> is $6.2 million annually. Assuming you have no operating costs or salaries, your take home amount:
-> $2 million after tax—or 20% of your sales. I will never launch an app in Europe."
-
-This was his reading of Apple's EU terms as announced in January 2024. Re-check current terms.
+In January 2024 he worked through Apple's then-new EU fee terms and concluded he would never launch
+an app in Europe. [X 2024-01-25](https://x.com/nikitabier/status/1750592825060921353) That was his
+reading of the terms as announced then; re-check current terms before using it.
 
 ## Venture capital is optional
 
-Nikita on founders' proceeds: after an IPO and "seven rounds of dilution," many end up with amounts
-"pretty comparable to what we get from our apps for 90 days of work." [LP 1:22:21]
+After an IPO and "seven rounds of dilution", many founders end up with amounts "pretty comparable to
+what we get from our apps for 90 days of work." [LP 1:22:13] **His comparison.**
 
-AI is changing the cost too: "traditionally it would have cost, you know, 200 $250,000 to get a full
-fully baked production app into the app store... now like a lot of smaller niche markets can have
-products built for them." [OOO 1:12:12] See `15-ai-era.md`.
+---
 
-Whether to raise money is the user's decision. This is context, not a rule.
+## How to apply it (our reading)
+
+1. **Rank support requests** for the last 30 days. Is the top one something people would pay for?
+2. **Tie the paid feature to a curiosity the free product creates** (*who picked me?*).
+3. **Only test pay after rungs 1 to 3 hold** (chapter 04). Payment tests on a non-spreading app
+   measure nothing useful.
+4. **Decide which type you are**, durable or arbitrage, and fund accordingly.
+5. **Write the burn per thousand daily users** and the vendor list you will renegotiate.
+
+**Worked numbers (invented).** 200,000 weekly active users; 4% try a weekly $3.99 plan; 40% of those
+keep it for 4 weeks. Month one revenue: 8,000 × $3.99 × (1 + 3 × 0.4) ≈ $70,000 gross, before store
+fees. If retention is the thing paying for it, this is a durable app; if most revenue comes from
+people who forget to cancel, it is his type B, and you should not raise venture money on it.
+
+**Failure modes.**
+- Charging before the app spreads.
+- A paywall on the core action, which kills the loop that brings new users.
+- Revenue that depends on forgotten cancellations, presented to investors as retention.
+
+**Guardrails.** For minors: no paid *reveal* of who said what, no pressure to pay to see something
+about yourself, and follow the app store and local rules on purchases by children. The God Mode
+model only gave hints, and even that needs care with a teen audience (chapter 12).
