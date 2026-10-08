@@ -82,22 +82,59 @@ first 60 seconds of onboarding. It reads the benchmarks, checks your instrumenta
 unproven rung of the validation ladder, runs the checks for that rung, and returns table stakes, 2 to
 3 step-function changes, one clean test and a guardrail pass, each tied to a principle and a source.
 
+The same canonical skill now works across the most popular coding agents. Codex and Claude can load
+it as a native skill folder; Cursor, GitHub Copilot, Windsurf, Cline/Roo Code, Gemini CLI, OpenCode
+and Aider can use the adapter files under [`agents/`](agents/README.md).
+
 ## How to use this
 
 There are three ways in. Pick the one that fits how much time you have.
 
 ### 1. Run it as an AI skill (10 minutes, the full audit)
 
-**Step 1: install.** Clone it into your agent's skills folder. For Claude Code:
+**Step 1: install.** Pick your agent and keep the **full repository** installed or vendored. The
+canonical skill is `SKILL.md`, but it depends on relative links into `references/`, `templates/` and
+`examples/`; copying only `SKILL.md` makes the audit less useful.
 
-```bash
-git clone https://github.com/01ayushgarg/nikita-bier-consumer-app-virality-playbook \
-  ~/.claude/skills/nikita-bier-consumer-app-virality-playbook
-```
+**Native skills.** These agents can load the repo as a skill folder.
 
-Any agent that reads skill folders (a folder with a `SKILL.md`) works the same way. If yours doesn't,
-paste `SKILL.md` into the chat and attach `references/benchmarks.md` plus the `references/` files it
-asks for.
+- **Codex (recommended).** Codex user skills live in `~/.agents/skills`; install the full repo there:
+
+  ```bash
+  git clone https://github.com/william-c-stanford/nikita-bier-consumer-app-virality-playbook \
+    ~/.agents/skills/nikita-bier-consumer-app-virality-playbook
+  ```
+
+  Then ask Codex: `Run the Nikita Bier playbook audit on my app.` See OpenAI's Codex docs:
+  <https://developers.openai.com/codex/skills/>.
+
+- **Claude Code.** Clone the repo into Claude's skills folder:
+
+  ```bash
+  git clone https://github.com/william-c-stanford/nikita-bier-consumer-app-virality-playbook \
+    ~/.claude/skills/nikita-bier-consumer-app-virality-playbook
+  ```
+
+  Claude Code also supports project memory in `CLAUDE.md`; see
+  <https://code.claude.com/docs/en/skills>.
+
+**Rule and instruction adapters.** These agents do not all have native skills. Keep the full repo in
+or near your project, then use the thin adapter in [`agents/`](agents/README.md) so the agent points
+back to the canonical `SKILL.md` instead of duplicating the playbook. Follow the path-rewriting
+and activation instructions in [`agents/README.md`](agents/README.md) when copying adapters.
+
+| Agent | Adapter | Loading guidance | Source docs |
+|---|---|---|---|
+| Cursor | [`agents/cursor-rules.md`](agents/cursor-rules.md) | Copy into `.cursor/rules/nikita-bier-playbook.mdc` or paste into a project rule. | <https://docs.cursor.com/en/context/rules> |
+| GitHub Copilot | [`agents/github-copilot-instructions.md`](agents/github-copilot-instructions.md) | Copy or merge into `.github/copilot-instructions.md`; Copilot can also use repository instruction files such as `AGENTS.md`, `CLAUDE.md` or `GEMINI.md`. | <https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions> |
+| Windsurf | [`agents/windsurf-rules.md`](agents/windsurf-rules.md) | Add as a Windsurf rule, for example under `.windsurf/rules/`, or use the documented `AGENTS.md` / legacy `.windsurfrules` route. | <https://docs.windsurf.com/windsurf/cascade/memories> |
+| Cline / Roo Code | [`agents/cline-roo-rules.md`](agents/cline-roo-rules.md) | Add to Cline custom instructions / Cline Rules, or to Roo project rules such as `.roo/rules/` (Roo also supports `AGENTS.md`, `AGENT.md`, `.roorules` and `.clinerules`). | <https://docs.cline.bot/improving-your-prompting-skills/custom-instructions-library>, <https://docs.cline.bot/features/cline-rules>, <https://docs.roocode.com/features/custom-instructions> |
+| Gemini CLI | [`agents/gemini.md`](agents/gemini.md) | Copy into `GEMINI.md` in the target project or reference it from your existing Gemini instructions; keep the repo files available at the paths named by the adapter. | <https://geminicli.com/docs/cli/gemini-md/> |
+| OpenCode | [`agents/opencode-instructions.md`](agents/opencode-instructions.md) | Use `AGENTS.md` or reference the adapter from `opencode.json` `instructions`; OpenCode can also reuse external rule files. | <https://opencode.ai/docs/rules/> |
+| Aider | [`agents/aider-conventions.md`](agents/aider-conventions.md) | Load the adapter with `/read agents/aider-conventions.md` or start Aider with `--read agents/aider-conventions.md`; keep the full repo beside it. | <https://aider.chat/docs/usage/conventions.html> |
+
+**Manual fallback.** If your agent has no skill, rule or file-reference system, paste `SKILL.md` into
+the chat and attach `references/benchmarks.md` plus the `references/` files and templates it asks for.
 
 **Step 2: give it your app.** The more you give, the sharper the audit. Copy this and fill it in:
 
