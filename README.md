@@ -82,22 +82,43 @@ first 60 seconds of onboarding. It reads the benchmarks, checks your instrumenta
 unproven rung of the validation ladder, runs the checks for that rung, and returns table stakes, 2 to
 3 step-function changes, one clean test and a guardrail pass, each tied to a principle and a source.
 
+The same canonical skill now works across the most popular coding agents. Codex and Claude can load
+it as a native skill folder; Cursor, GitHub Copilot, Windsurf, Cline/Roo Code, Gemini CLI, OpenCode
+and Aider can use the adapter files under [`agents/`](agents/README.md).
+
 ## How to use this
 
 There are three ways in. Pick the one that fits how much time you have.
 
 ### 1. Run it as an AI skill (10 minutes, the full audit)
 
-**Step 1: install.** Clone it into your agent's skills folder. For Claude Code:
+**Step 1: install.** Pick your agent.
+
+**Codex (recommended).** Codex discovers user skills from `~/.agents/skills`. Clone the whole repo so
+`SKILL.md` can still use its relative links to `references/`, `templates/` and `examples/`:
+
+```bash
+git clone https://github.com/01ayushgarg/nikita-bier-consumer-app-virality-playbook \
+  ~/.agents/skills/nikita-bier-consumer-app-virality-playbook
+```
+
+Then ask Codex: `Run the Nikita Bier playbook audit on my app.`
+
+**Claude Code.** Clone it into Claude's skills folder:
 
 ```bash
 git clone https://github.com/01ayushgarg/nikita-bier-consumer-app-virality-playbook \
   ~/.claude/skills/nikita-bier-consumer-app-virality-playbook
 ```
 
-Any agent that reads skill folders (a folder with a `SKILL.md`) works the same way. If yours doesn't,
-paste `SKILL.md` into the chat and attach `references/benchmarks.md` plus the `references/` files it
-asks for.
+**Other popular coding agents.** See [`agents/README.md`](agents/README.md) for Cursor, GitHub
+Copilot, Windsurf, Cline/Roo Code, Gemini CLI, OpenCode and Aider. Most use a rule or instructions
+file that points back to this repo's canonical `SKILL.md`; do not copy only `SKILL.md` unless your
+agent cannot read local files, because the skill depends on the files in `references/`, `templates/`
+and `examples/`.
+
+If your agent has no skill, rule or file-reference system, paste `SKILL.md` into the chat and attach
+`references/benchmarks.md` plus the `references/` files it asks for.
 
 **Step 2: give it your app.** The more you give, the sharper the audit. Copy this and fill it in:
 
