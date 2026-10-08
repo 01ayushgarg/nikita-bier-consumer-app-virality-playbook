@@ -4,63 +4,81 @@ His most recent views. Every one of them is dated, and this is the part most lik
 
 ## Building got cheap, so niches got viable
 
-> "Traditionally it would have cost, you know, 200 $250,000 to get a full fully baked production app
-> into the app store, you know, signup flows, sharing all that. Uh, now like a lot of smaller niche
-> markets can have products built for them." [OOO 1:12:12]
+> "traditionally it would have cost, you know, 200 $250,000 to get a full fully baked production app
+> into the app store, you know, signup flows, sharing all that. uh, now like a lot of smaller niche
+> markets can have products built for them." [OOO 1:12:16]
 
-> "You'd go to a VC and say I want to raise money for this idea and they'd be like uh what's what's
-> the TAM? And then you'd be like oh it's a few hundred million not big enough. Uh but I think that's
-> going to change now." [OOO 1:12:31]
+Investors used to reject a market of "a few hundred million" as too small; "i think that's going to
+change now." [OOO 1:12:38] Engineers keep a critical role, "but i think the validation process is
+going to be much faster." [OOO 1:11:23]
 
-> "I think engineers are still going to have a critical role in the company. Uh but I think the
-> validation process is going to be much faster." [OOO 1:11:20]
+He shipped some of X's link feature himself "with uh uh with cloud code [sic: Claude Code]"
+[OOO 40:33].
 
-He shipped some of X's link feature himself: "I actually built some of it myself with uh uh with
-cloud code [sic: Claude Code]." [OOO 40:28]
-
-**But harden what matters:** "you probably want to harden it against like security vulnerabilities
-things like that don't want to really vibe code uh uh a database of like social security numbers or
-something." [OOO 1:11:29]
+**But harden what matters:** "don't want to really vibe code uh uh a database of like social
+security numbers or something." [OOO 1:11:38]
 
 ## Cheap building also erodes the viral-app edge
 
-[X 2026-02-21](https://x.com/nikitabier/status/2025092951014301841), quoting a post that read
-"2026: build an app in 3 minutes / 2025: build an app in 3 days / 2024: build an app in 3 weeks /
-2023: build an app in 3 months":
-
-> "I really quit the viral app business just in time."
+In February 2026 he quoted a post charting app-building time falling from months (2023) to minutes
+(2026) and replied that he had left the viral app business at just the right moment.
+[X 2026-02-21](https://x.com/nikitabier/status/2025092951014301841)
 
 ## Probabilistic products need different instincts
 
-[X 2026-09-20](https://x.com/nikitabier/status/2101763620954894647):
+His September 2026 argument, paraphrased: executives trained over 20 years on software with
+deterministic outputs are out of their element, because "AI produces value from probabilistic
+results", and young builders who think this way from the start will have the edge they had with
+social products in 2010.
+[X 2026-09-20](https://x.com/nikitabier/status/2101763620954894647)
 
-> "There are so many seasoned software executives who are completely out of their element with the
-> types of products that will breakout in the next few years. Over the last 20 years, their brains
-> were wired to build apps that deliver value by outputting deterministic results, but AI produces
-> value from probabilistic results. This is such a different way to approach how something should
-> work. Young people who are thinking in this way from the outset will be at a significant advantage
-> -- in the same way they were advantaged when thinking about how products could be social in 2010."
+## LLMs as the new activation lever, with a warning
 
-## LLMs as the new activation lever
+After iOS 18 limited contact sync, he wrote that retention on AI companion apps, in the few dashboards he had seen, was extraordinary, and that
+“LLMs might be the new Contact Sync.”
+[X 2024-09-19](https://x.com/nikitabier/status/1836612494938509664) His point was about
+activation: relevant, empathetic responses to whatever a user types.
 
-After iOS 18 limited contact sync, [X 2024-09-19](https://x.com/nikitabier/status/1836612494938509664):
+> ⚠️ **Guardrail (our note).** Read this as an observation about activation, not a recommendation
+> to build companion or “girlfriend” apps. He himself calls the relationship “artificial”. This
+> skill will not help design AI companions for minors, AI that poses as a person, AI that messages
+> users unprompted (his own rule at X, chapter 12), or retention loops built on loneliness or
+> dependence. For any AI product: disclose that it is AI, let users leave easily, and check local
+> law on AI and children.
 
-> "From the handful of dashboards I've seen, the retention rates on AI companion/girlfriend apps are
-> extraordinary... the ability to craft relevant, empathetic responses to any user input is a
-> powerful lever to activating users and entrenching them into a relationship, albeit artificial.
-> For better or for worse, LLMs might be the new Contact Sync."
-
-And on interest graphs, [X 2025-05-15](https://x.com/nikitabier/status/1922864090277392756): "AI can
-now understand text and users will be able to prompt their interests in ways that were never
-possible with keyword search."
+On interest graphs, his May 2025 view: AI now understands text, so users will be able to “prompt
+their interests” in ways keyword search never allowed.
+[X 2025-05-15](https://x.com/nikitabier/status/1922864090277392756)
 
 ## Software as self-expression
 
-[X 2026-07-28](https://x.com/nikitabier/status/2082140254237241588), launching X's app builder:
-"Photos & video were how the last generation expressed themselves. Today's form of expression is
-software." (A product launch post from his X role; read it as his thesis, not neutral analysis.)
+Launching X's app builder in July 2026, he wrote that photos and video were how the last generation
+expressed themselves, and "Today's form of expression is software."
+[X 2026-07-28](https://x.com/nikitabier/status/2082140254237241588) A launch post from his X role:
+read it as his thesis, not neutral analysis.
 
-**Checks to run:**
-- Does the AI respond to anything the user enters in a way that feels relevant at once? That is the activation moment.
-- Is this a niche that was too small for venture money before, and is now buildable?
-- Which parts are safe to build fast, and which (data, payments, minors) need hardening?
+---
+
+## How to apply it (our reading)
+
+1. **Re-size the market.** If a niche was too small to fund at $200,000+ per production app, re-run
+   the numbers with your actual build cost now.
+2. **Define the first relevant response** as the activation moment for an AI product: the first
+   output the user would call exactly right. Measure time and taps to it (chapter 05).
+3. **Split the build**: what can be fast and rough (UI experiments, prototypes) versus what must be
+   hardened (personal data, payments, anything touching minors).
+4. **Design for probabilistic output**: show that results can vary, let users retry or steer, and
+   test on real inputs, not demos.
+5. **Run the guardrail pass** (chapter 12) with the AI rows above.
+
+**Worked numbers (invented).** A niche of 30,000 hobby beekeepers. At 3% paying $40 a year that is
+$36,000 a year: not venture scale, but if building cost a few thousand dollars instead of
+$250,000, it can be a profitable small app.
+
+**Failure modes.**
+- Shipping a demo-quality model output as the first screen, so activation depends on luck.
+- Vibe-coding the parts that hold personal data.
+- Using an AI persona to fake social proof or company.
+
+**Limits.** Every view here is 2024 to 2026 and drawn from posts and one interview. Expect it to
+date quickly.
