@@ -2,11 +2,11 @@
 
 One test, one rung, one answer. Based on chapters 03 and 04.
 
-> "Usually within 48 hours we'd know if it if it was working. Uh and with with TBH uh we knew that
-> night." Nikita Bier [OOO 56:29]
+> "usually within 48 hours we'd know if it if it was working. uh and with with tbh uh we knew that
+> night" Nikita Bier [OOO 56:46]
 
-> "You never want to walk away from an experiment or test and say, 'Well, maybe the execution was
-> bad.'" [LP 31:58]
+> "you never want to walk away from an experiment or test and say" that maybe the execution was
+> bad. [LP 32:00]
 
 Test name: ______________________  Owner: __________  Start: __________  Read-out: __________
 
@@ -17,7 +17,7 @@ Test name: ______________________  Owner: __________  Start: __________  Read-ou
 - [ ] Hop between groups: will it jump to the next group on its own?
 - [ ] Pay: will people pay for it?
 
-## 2. The chain of "must be true" [LP 1:12:48]
+## 2. The chain of must-be-true conditions [LP 1:12:46]
 
 Write the product as conditions. Aim for four or fewer.
 
@@ -27,7 +27,7 @@ Write the product as conditions. Aim for four or fewer.
 
 This test checks link number: ___
 
-## 3. Execute 100% on the rung, half-ass the rest [LP 1:12:07]
+## 3. Execute 100% on the rung, half-ass the rest [LP 1:12:02]
 
 | What must be excellent for this test | What can be rough |
 |---|---|
@@ -37,8 +37,8 @@ This test checks link number: ___
 
 | Confounder | How we remove it |
 |---|---|
-| Not enough friends on the app (density) | Seed one real group all at once: one school, club, team or community [OOO 55:34] |
-| Users stuck or confused | Live chat support, staffed for the whole test [LP 32:46] |
+| Not enough friends on the app (density) | Seed one real group all at once: one school, club, team or community [OOO 55:52] |
+| Users stuck or confused | Live chat support, staffed for the whole test [LP 32:44] |
 | Bad first impression from bugs | Polish the core flow even if nothing else is polished |
 | Wrong audience | Ads and invites target exactly the group being tested |
 
@@ -46,22 +46,27 @@ This test checks link number: ___
 
 - Group: ______________________  Size: ______
 - How everyone gets it at the same time: ______________________
-- Marketing touches per person (he says people need about three) [LP 29:44]: ______
+- Marketing touches per person (he says people need about three) [LP 29:54]: ______
 
-**Remember his caveat:** "This is not the way we grew the app. This is how we tested apps." [LP 30:43]
+**Remember his caveat:** "this is not the way we grew the app. this is how we tested apps." [LP 30:46]
 
 ## 6. Decide the answer before you start
 
-| Signal | Threshold for YES | Threshold for NO |
-|---|---|---|
-| Primary metric: ____________ | | |
-| Guardrail: ____________ | | |
+| Signal | YES at or above | NO below | UNCLEAR band (between) |
+|---|---|---|---|
+| Primary metric: ____________ | | | |
+| Guardrail: ____________ | | | |
 
-"If your product's working, you'll know. And if there's any uncertainty, it's not working."
-(Roger Dickey, relayed by Nikita) [LP 36:15]
+Every test needs all three columns. UNCLEAR is not a pass: it means a confounder was probably not
+removed (section 4). Our suggested default for a core-flow test: YES at 50%+ doing the core action
+3+ times on day 1, NO under 20%, UNCLEAR in between. These numbers are ours, not his.
+
+"if your product's working, you'll know. and if there's any uncertainty, it's not working"
+(Roger Dickey, relayed by Nikita) [LP 36:12]
 
 ## 7. Read-out (fill in at 48 hours)
 
 - Result: YES / NO / UNCLEAR
 - If UNCLEAR, which confounder was not removed? ______________________
-- Next: relaunch the same rung with a change, or move up one rung.
+- Next: YES, move up one rung. NO, change the idea or the mechanic. UNCLEAR, fix the confounder and
+  relaunch once; a second UNCLEAR counts as NO (our rule, following his “any uncertainty” line [LP 36:12]).
