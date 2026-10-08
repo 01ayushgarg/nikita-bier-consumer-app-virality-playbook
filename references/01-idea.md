@@ -2,120 +2,126 @@
 
 ## Hunt for latent demand
 
-> "The way you should be searching for product ideas is this concept of latent demand where
-> people are trying to obtain a particular value and going through a very distortive process
-> to obtain that value." [LP 26:35]
+> "The way you should be searching for product ideas is this concept of latent demand where people
+> are trying to obtain a particular value and going through a very distortive process to obtain
+> that value." [LP 26:35]
 
-> "If you can actually crystallize what their motivation is and build a product around and
-> clear up what they're trying to actually do, you can have this kind of intense adoption." [LP 26:56]
+> "If you can actually crystallize what their motivation is and build a product around and clear up
+> what they're trying to actually do, you can have this kind of intense adoption." [LP 26:53]
 
-**How tbh was found** [LP 25:22 to 27:42]:
-- A high-school senior who gave feedback on earlier apps described a Snapchat game: post an
-  image of emojis labelled "I like you", "your style is great", and friends reply with the emoji
-  they feel. Nikita's read: teens were looking for "this vehicle for disclosure."
-- At the same time the #1 app in the US was Sarahah, for anonymous messages via a Snapchat
-  story link, and "the entire app was in Arabic." His verdict: "the strongest signal that you
-  could ever have that people want something." [LP 00:23, 26:20]
-- Reading Sarahah's comments showed users got negative, bullying messages. The insight: people
-  "want to know good things about themselves." So tbh made users answer polls the team wrote,
-  which kept everything positive. Result: users felt better AND sent far more messages.
+**How tbh was found** [LP 25:35 to 27:42]:
+- A high-school senior who gave feedback on earlier apps described a Snapchat story game: post a
+  grid of emojis with labels like “your style is great”, and friends reply with the emoji they
+  feel. Nikita's read: teens were looking for "this vehicle for disclosure". [LP 25:45]
+- At the same time the #1 app in the US was Sarahah, for anonymous messages via a Snapchat story
+  link, and the whole app was in Arabic. He called that "one of the most strongest signal that you
+  could ever have that people want something." [LP 26:26]
+- Reading Sarahah's reviews showed users were getting bullying messages. His conclusion: "people
+  want to know good things about themselves" [LP 27:19]. So tbh made users answer polls the team
+  wrote, which kept everything positive.
 
-**Checks to run:**
-- What workaround are people already using to get this value? (Screenshots, story games,
-  foreign-language apps, spreadsheets, duct-taped tools.) The uglier the workaround, the stronger the signal.
-- What is the motivation underneath the workaround, stated in one line?
-- What goes wrong in the current workaround, and can the product design remove it?
-- Where did you learn this? Nikita's came from long-term users of earlier apps who kept sending feedback [LP 25:04].
+He told the same story in 2026: teens "were just looking for like this avenue to disclose their
+feelings uh in a in a safe space." [OOO 52:14]
 
 ## Watch how users hack the product
 
-At X he used the same lens on an existing product: "one of the best ways to inform what to build next is
-to look at your users and see how are they hacking the platform... to me that's identifying uh, latent
-demand. And those are the highest signal features that you could build." [TBS 8:15]
+At X he used the same lens on an existing product: "look at your users and see how are they hacking
+the platform. what are what are they trying to achieve uh, that isn't present in the product
+today." [TBS 8:20]
 
-## Watch the behaviour that is already happening
+## Don't throw out *taboo* ideas too early
 
-He tells the same tbh origin in 2026: "I started seeing a pattern on uh Snapchat of uh of teenagers
-uh sending their their friends compliments... We're like, could we productize this and actually turn
-it into like a whole experience? And we we unpacked what those people were doing. And uh they were
-just looking for like this avenue to disclose their feelings uh in a in a safe space." [OOO 51:55]
+In an April 2024 post he argues that ideas which resonate often clash with conventional values, so
+founders reject them in brainstorming. He was rejected from YC for an anonymous rating app, then
+built the version where "you could only say positive things—which had immediate viral success."
+[X 2024-04-18](https://x.com/nikitabier/status/1780967619199467685)
 
-## Don't throw out "taboo" ideas too early
+**The move:** find the positive-only version of the uncomfortable idea. That is the story of tbh.
 
-[X 2024-04-18](https://x.com/nikitabier/status/1780967619199467685):
-
-> "Products that resonate tend to violate traditional values of anglo society and founders (or their
-> partners) will dismiss these directions very early in brainstorming process... You should be
-> extremely conscious of these biases, because sometimes you might reject something that people
-> really want. Even if it is egregiously amoral, there is probably a derivative concept that is a net
-> good. For example, it would be awful to anonymously rate people on an app. In fact, I was rejected
-> from YC for pitching this idea. But several years later, I modified the concept where you could
-> only say positive things—which had immediate viral success."
-
-**The move:** find the positive-only version of the "amoral" idea. That is the story of tbh.
+> ⚠️ **Guardrail (our note).** The point of that post is the positive version of an uncomfortable
+> idea, not *ship the taboo version*. If the idea involves rating, ranking or exposing real people, the
+> positive-only design and the rules in chapter 12 are the price of entry, and more so when the users
+> are minors.
 
 ## The classic first-timer mistake
 
-[X 2019-03-19](https://x.com/nikitabier/status/1107871174413803520):
-
-> "You can tell when someone is building their 1st social app—it's always an app to meetup w/
-> friends. They soon learn 2 hard lessons
-> 1. No one wants to hangout with the friends who need the app: socially awkward 20-somethings
-> 2. Most Americans just go to work, watch Netflix and die"
+His 2019 joke: a founder's first social app “an app to meetup w/ friends”, and the two
+lessons that follow are that nobody wants to hang out with the people who need such an app, and
+most people's evenings are already taken.
+[X 2019-03-19](https://x.com/nikitabier/status/1107871174413803520)
 
 ## Start with a small, even embarrassing, community
 
-> "Identifying a pretty small community that might even be embarrassing to tell your friends... your V1
-> of your product should be embarrassing because you need this level of relevancy for a subset of people
-> where when they see that product, they're like, well, this was made for me. I guess I have to download
-> it... you have to start hyperfocused on a specific community." [SOL 0:47 to 1:14]
+His advice on Solana Stories, paraphrased: start hyper-focused on one specific community, even one
+that is embarrassing to name, so relevant that its members feel the product "was made for me".
+[SOL 1:00]
 
 ## Incumbents are slow to copy you
 
-"Realistically, I think most companies, large companies take 12 to 24 months to respond to competitive
-threats in the market." [LP 45:50] In 2022 he put it at "usually like over two years to respond"
-[WIH 15:38], and said big tech's weakness is "zero to one creating new products" [WIH 11:57].
+"Most companies, large companies take 12 to 24 months to respond to competitive threats in the
+market." [LP 45:53] In 2022 he put it at "usually like over two years to respond" [WIH 16:03].
 
 ## The three core reasons people download apps
 
-> "People download apps to make or save money... to find a mate... to unplug from reality." [LP 42:51 to 43:16]
+> "people download apps to make or save money." [LP 42:59]
 
-| Reason | His examples |
-|---|---|
-| Make or save money | WhatsApp (free texting) |
-| Find a mate | Tinder, Snapchat |
-| Unplug from reality | Netflix, Fortnite |
+The other two are “to find a mate” and "to unplug from reality", with examples WhatsApp, Tinder or
+Snapchat, and Netflix or Fortnite [LP 43:04 to 43:17]. He adds utilitarian subcategories such as
+movement (Uber) and shelter (Airbnb) [LP 43:21].
 
-He adds utilitarian subcategories such as movement (Uber) and shelter (Airbnb) [LP 43:21].
-
-**Check:** which of these does the app serve, honestly? If the honest answer is awkward to
-say in a meeting ("an app for teens to flirt"), that is normal. He argues big companies lose
-exactly here because they cannot "be completely intellectually honest about what you're building." [LP 41:21 to 41:42]
-
-## Durability is not the target
-
-> "Finding durability for a communication or social product, that's a black swan event." [LP 1:18:51]
-
-He separates two things: growth can be a science, durable retention is mostly randomness.
-Tell the user which one they are asking about.
+Big companies struggle here because it is hard "to be completely intellectually honest about what
+you're building." [LP 41:38]
 
 ## Simple, primal mechanics beat lofty ones
 
-[X 2020-06-18](https://x.com/nikitabier/status/1273437328866832384) (humour, with a real benchmark):
+A 2020 joke post contrasts a first-year founder's platform for intellectual conversations (23
+users, 5% retention) with a fifth-year founder's crude voting mechanic (10 million users, 40%
+retention). [X 2020-06-18](https://x.com/nikitabier/status/1273437328866832384)
 
-> "—1st Year Social App Founder— "We're going to build a platform for intellectual conversations!"
-> Result: 23 users + 5% retention. —5th Year Social App Founder— "Let's just have people vote on who's
-> the hottest." Result: 10mil users + 40% retention"
+> ⚠️ **Guardrail (our note).** The numbers in that post are a joke, not a benchmark, and the mechanic
+> it mocks ("vote on who's the hottest") is exactly the kind of rating of real people that hurts
+> teens. Take the lesson (simple, primal, one-tap) and not the mechanic. tbh and Gas only shipped
+> positive, team-written polls (chapter 12).
 
 ## Virality is a science; retention is a black swan
 
-[X 2024-08-16](https://x.com/nikitabier/status/1824491565622104552):
+In a 2024 post he writes that a durable social product is “a black swan event” with “no repeatable
+path”, while "making an app go viral is a science: you can methodically break down funnel steps to
+ensure users distribute your product." [X 2024-08-16](https://x.com/nikitabier/status/1824491565622104552)
 
-> "Building a retentive social product is a black swan event: it is extraordinarily rare to create the
-> next Facebook and displace a daily communication tool. There is no repeatable path to making it
-> happen. On the other hand, making an app go viral is a science: you can methodically break down
-> funnel steps to ensure users distribute your product."
+On Lenny's Podcast: "Finding durability for a communication or social product, that's a black swan
+event." [LP 1:18:51]
 
-When it does happen, [X 2024-04-05](https://x.com/nikitabier/status/1776045211220615193): "once per
-decade you'll stumble across what is known as a Black Swan retention chart. When you see it, don't ask
-questions and just find a way to be involved in whatever capacity you can."
+---
+
+## How to apply it (our reading)
+
+A one-hour idea screen, built from the ideas above. The steps and scoring are ours.
+
+1. **List workarounds, not ideas.** Write down 10 places where people already get a value the hard
+   way: screenshots passed around, story games, spreadsheets, a foreign-language app in the top
+   charts. Each one is a candidate.
+2. **Name the motivation in one line** for each (*teens want to hear good things about
+   themselves*). If you can't, drop it.
+3. **Name what goes wrong in the workaround** (bullying, effort, embarrassment). Your product is the
+   version that removes it.
+4. **Say which of the three reasons it serves** (money, a mate, unplugging) or which utility. If the
+   honest answer is awkward to say in a meeting, that is normal.
+5. **Find the embarrassing first community**: a group small and specific enough that they would say
+   that reaction [SOL 1:00].
+6. **Run the guardrail pass** (chapter 12) before you build anything.
+
+**Worked scenario (invented).** You notice first-year students in a dorm posting a shared photo note
+of who is going to the dining hall, and the comment threads fill up every evening. Motivation: *I
+don't want to eat alone.* What goes wrong: the note is out of date in minutes. Reason: unplugging
+plus social. First community: one dorm. That is a candidate worth one test (chapter 03), not a
+company yet.
+
+**Failure modes.**
+- Starting from a technology and looking for a behaviour to attach it to.
+- Rejecting an idea because it feels uncomfortable, without looking for its positive version.
+- Keeping the uncomfortable version because it would *grow faster*.
+- Picking a community so broad (*students*, *creators*) that nobody feels it was made for them.
+
+**Limits.** All of his idea stories are social apps for teens. The same screen works for utilities,
+but the workaround is usually effort or money, not disclosure (chapter 16).
